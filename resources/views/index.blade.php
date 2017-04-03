@@ -9,7 +9,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hola mundo</h1>
     {{-- include de las secciones --}}
 
     {{ Html::script(asset('js/jquery.js')) }}
