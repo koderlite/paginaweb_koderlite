@@ -1,1 +1,10 @@
 /*INICIO*/
+
+.init{
+  height: 100vh;
+  background: white;
+}
+.init_slider{
+  height: 80vh;
+  
+}
