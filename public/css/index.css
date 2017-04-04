@@ -1,4 +1,32 @@
 /*INICIO*/
 
 /* SERVICIOS clave => serv*/
+@import url('https://fonts.googleapis.com/css?family=Kavivanar|Bad+Script|Courgette|Kalam|Macondo|Raleway|Josefin+Sans');
 
+.font-raleway{
+    font-family: 'Raleway', sans-serif;
+}
+
+.font-josefina{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.font-macondo{
+    font-family: 'Macondo', cursive;
+}
+
+.font-courgette{
+    font-family: 'Courgette', cursive;
+}
+
+.font-kalam{
+    font-family: 'Kalam', cursive;
+}
+
+.font-badScript{
+    font-family: 'Bad Script', cursive;
+}
+
+.font-kavivanar{
+    font-family: 'Kavivanar', cursive;
+}
