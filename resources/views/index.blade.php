@@ -10,6 +10,7 @@
 </head>
 <body>
     {{-- include de las secciones --}}
+    @include('inicio')
 
     {{ Html::script(asset('js/jquery.js')) }}
     {{ Html::script(asset('js/tether.js')) }}
