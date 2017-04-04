@@ -1,0 +1,4 @@
+/* INICIO */
+$(document).ready(function(){
+  
+});

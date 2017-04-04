@@ -19,5 +19,6 @@
     {{ Html::script(asset('js/bootstrap/bootstrap.min.js')) }}
     {{ Html::script(asset('js/bootstrap/material.min.js')) }}
     {{ Html::script(asset('js/bootstrap/material-kit.js')) }}
+    {{ Html::script(asset('js/index.js'))}}
 </body>
 </html>
