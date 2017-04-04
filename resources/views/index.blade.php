@@ -11,7 +11,7 @@
 </head>
 <body>
     {{-- include de las secciones --}}
-    @include('inicio')
+    @include('secciones.inicio')
 
     {{ Html::script(asset('js/plugins/jquery.min.js')) }}
     {{ Html::script(asset('js/plugins/tether.js')) }}
