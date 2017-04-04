@@ -3,8 +3,8 @@
 
     </div>
     <button type="button" name="button"></button>
-    @include('templates.nav')
+    @include('secciones.templates.nav')
 
-    
+
 
 </header>
