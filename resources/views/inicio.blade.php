@@ -1,1 +1,8 @@
-<h1>Hola mundo </h1>
+<header>
+    <div class="header_slider">
+
+    </div>
+    <button type="button" name="button"></button>
+    @include('templates.nav')
+
+</header>
