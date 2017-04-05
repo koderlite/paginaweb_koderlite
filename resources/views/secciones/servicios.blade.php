@@ -7,63 +7,71 @@
 		</div>
 			
 				<ul class="ch-grid">
-					<li>
-						<div class="ch-item ch-img-1">				
-							<div class="ch-info-wrap">
-								<div class="ch-info">
-									<div class="ch-info-front ch-img-1"></div>
-									<div class="ch-info-back">
-										<h3>taxi</h3>
-										<p>by Ana Villa-Zamora <a href="http://drbl.in/ewng">View on Dribbble</a></p>
-									</div>	
-								</div>
-							</div>
-						</div>
-						<br>
-						<p class="font-raleway tam-1-medio-em ser-nombres">PAGINAS WEB</p>
-					</li>
-					<li>
-						<div class="ch-item ch-img-2">
-							<div class="ch-info-wrap">
-								<div class="ch-info">
-									<div class="ch-info-front ch-img-2"></div>
-									<div class="ch-info-back">
-										<h3>Stay Foxy</h3>
-										<p>by Arnel Baluyot <a href="http://drbl.in/eQDg">View on Dribbble</a></p>
+					<li id="serv-hover-item1">
+						<a href="#">
+							<div class="ch-item ch-img-1">				
+								<div class="ch-info-wrap">
+									<div class="ch-info serv-color-item1">
+										<div class="ch-info-front ch-img-1"></div>
+										<div class="ch-info-back serv-color-item1">
+											<h3>KODER PAGE</h3>
+											<p class="font-josefina">Llega a mas clientes con tu paginas hecha a la medida</p>
+										</div>	
 									</div>
 								</div>
 							</div>
-						</div>
+						</a>
+						<br>
+						<p id="serv-caption-item1" class="font-raleway tam-1-medio-em ser-nombres">PAGINAS WEB</p>
+					</li>
+					<li>
+						<a href="#">
+							<div class="ch-item ch-img-2">
+								<div class="ch-info-wrap">
+									<div class="ch-info serv-color-item2">
+										<div class="ch-info-front ch-img-2"></div>
+										<div class="ch-info-back serv-color-item2">
+											<h3>KODER BLOG</h3>
+											<p class="font-josefina">Manten informado a tus fans o clientes con las noticias mas recientes</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</a>
 						<br>
 						<p class="font-raleway tam-1-medio-em ser-nombres">BLOGS</p>
 					</li>
 					<li>
-						<div class="ch-item ch-img-3">
-							<div class="ch-info-wrap">
-								<div class="ch-info">
-									<div class="ch-info-front ch-img-3"></div>
-									<div class="ch-info-back">
-										<h3>Klava Jinx</h3>
-										<p>by Jamal Charanek <a href="http://drbl.in/ejLW">View on Dribbble</a></p>
+						<a href="#">
+							<div class="ch-item ch-img-3">
+								<div class="ch-info-wrap">
+									<div class="ch-info serv-color-item3">
+										<div class="ch-info-front ch-img-3"></div>
+										<div class="ch-info-back serv-color-item3">
+											<h3>KODER SHOP</h3>
+											<p class="font-josefina">Rota mas rapido tu inventario ofreciendolo en la web</p>
+										</div>
 									</div>
 								</div>
 							</div>
-						</div>
+						</a>
 						<br>
 						<p class="font-raleway tam-1-medio-em ser-nombres">E - COMMERCE</p>
 					</li>
                     <li>
-						<div class="ch-item ch-img-4">
-							<div class="ch-info-wrap">
-								<div class="ch-info">
-									<div class="ch-info-front ch-img-4"></div>
-									<div class="ch-info-back">
-										<h3>Klava Jinx</h3>
-										<p>by Jamal Charanek <a href="http://drbl.in/ejLW">View on Dribbble</a></p>
+						<a href="#">
+							<div class="ch-item ch-img-4">
+								<div class="ch-info-wrap">
+									<div class="ch-info serv-color-item4">
+										<div class="ch-info-front ch-img-4"></div>
+										<div class="ch-info-back serv-color-item4">
+											<h3>KODER MOVIL</h3>
+											<p class="font-josefina">Administra tu empresa o clientes a donde quiera que vayas</p>
+										</div>
 									</div>
 								</div>
 							</div>
-						</div>
+						</a>
 						<br>
 						<p class="font-raleway tam-1-medio-em ser-nombres">APPS MOVILES</p>
 					</li>

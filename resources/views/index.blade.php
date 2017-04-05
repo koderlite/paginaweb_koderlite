@@ -27,7 +27,7 @@
     {{ Html::script(asset('js/bootstrap/material-kit.js')) }}
     {{-- js necesarios para el efecto hover de los servicios --}}
     {{ Html::script(asset('js/plugins/hoverEfect/modernizr.custom.79639.js')) }}
-    <script>
+    {{-- <script>
         (function() {
 	
 				function init() {
@@ -54,6 +54,6 @@
 				init();
 
 			})();
-    </script>
+    </script> --}}
 </body>
 </html>
