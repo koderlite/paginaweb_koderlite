@@ -11,6 +11,7 @@
     {{-- css necesarios para el efecto hover de los servicios --}}
     {{ Html::style(asset('css/plugins/hoverEfect/common.css')) }}
     {{ Html::style(asset('css/plugins/hoverEfect/style5.css')) }}
+    {{ Html::style(asset('css/plugins/animate.css')) }}
     <title>KoderLite</title>
 </head>
 <body>
@@ -27,33 +28,5 @@
     {{ Html::script(asset('js/bootstrap/material-kit.js')) }}
     {{-- js necesarios para el efecto hover de los servicios --}}
     {{ Html::script(asset('js/plugins/hoverEfect/modernizr.custom.79639.js')) }}
-    {{-- <script>
-        (function() {
-	
-				function init() {
-					var speed = 330,
-						easing = mina.backout;
-
-					[].slice.call ( document.querySelectorAll( '#grid > a' ) ).forEach( function( el ) {
-						var s = Snap( el.querySelector( 'svg' ) ), path = s.select( 'path' ),
-							pathConfig = {
-								from : path.attr( 'd' ),
-								to : el.getAttribute( 'data-path-hover' )
-							};
-
-						el.addEventListener( 'mouseenter', function() {
-							path.animate( { 'path' : pathConfig.to }, speed, easing );
-						} );
-
-						el.addEventListener( 'mouseleave', function() {
-							path.animate( { 'path' : pathConfig.from }, speed, easing );
-						} );
-					} );
-				}
-
-				init();
-
-			})();
-    </script> --}}
 </body>
 </html>
