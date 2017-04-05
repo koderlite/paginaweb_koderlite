@@ -1,6 +1,14 @@
 /*INICIO*/
+.init{
+  height: 100vh;
+  background: white;
+}
+.init_slider{
+  height: 80vh;
 
+}
 /* SERVICIOS clave => serv*/
+
 /*estilo de fuentes*/
 @import url('https://fonts.googleapis.com/css?family=Kavivanar|Bad+Script|Courgette|Kalam|Macondo|Raleway|Josefin+Sans');
 
