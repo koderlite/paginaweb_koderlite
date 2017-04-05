@@ -7,7 +7,8 @@
     {{ Html::style(asset('css/bootstrap/bootstrap.min.css')) }}
     {{ Html::style(asset('css/bootstrap/material-kit.css')) }}
     {{ Html::style(asset('css/material_icon/icons_md_icon.css')) }}
-    <title>Document</title>
+    {{ Html::style(asset('css/index.css'))}}
+    <title>KoderLite</title>
 </head>
 <body>
     {{-- include de las secciones --}}
@@ -18,5 +19,6 @@
     {{ Html::script(asset('js/bootstrap/bootstrap.min.js')) }}
     {{ Html::script(asset('js/bootstrap/material.min.js')) }}
     {{ Html::script(asset('js/bootstrap/material-kit.js')) }}
+    {{ Html::script(asset('js/index.js'))}}
 </body>
 </html>

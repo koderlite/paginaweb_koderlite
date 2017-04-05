@@ -1,10 +1,8 @@
-<header>
-    <div class="header_slider">
-      
+<header class="init">
+    <div class="init_slider">
+         
+
     </div>
-    <button type="button" name="button"></button>
     @include('secciones.templates.nav')
-
-
 
 </header>
