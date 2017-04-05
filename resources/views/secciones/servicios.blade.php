@@ -15,7 +15,7 @@
 										<div class="ch-info-front ch-img-1"></div>
 										<div class="ch-info-back serv-color-item1">
 											<h3>KODER PAGE</h3>
-											<p class="font-josefina">Llega a mas clientes con tu paginas hecha a la medida</p>
+											<p class="font-josefina">Llega a mas clientes con tu paginas hechas a la medida</p>
 										</div>	
 									</div>
 								</div>
