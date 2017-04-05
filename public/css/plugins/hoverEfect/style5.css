@@ -64,15 +64,19 @@
 }
 
 .ch-img-1 { 
-	background-image: url(../../../imagenes/servicios/1.png);
+	background-image: url('../../../imagenes/servicios/desarrollo de paginas web.png');
 }
 
 .ch-img-2 { 
-	background-image: url(../../../imagenes/servicios/1.png);
+	background-image: url('../../../imagenes/servicios/desarrollo de blogs.png');
 }
 
 .ch-img-3 { 
-	background-image: url(../../../imagenes/servicios/1.png);
+	background-image: url('../../../imagenes/servicios/desarrollo de ecommerce.png');
+}
+
+.ch-img-4 { 
+	background-image: url('../../../imagenes/servicios/desarrollo movil.png');
 }
 
 .ch-info h3 {
