@@ -48,7 +48,8 @@ $(document).ready(function() {
   })();
 
   Page.init();
-  
+
+  $('.nav-dots').children(':first').addClass('nav-dot-current');
 
   /**
    * Notes:

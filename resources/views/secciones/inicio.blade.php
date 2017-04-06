@@ -13,8 +13,10 @@
 
                   <div class="sl-slide-inner">
                     <div class="bg-img bg-img-1"></div>
-                    <h2>Dum spiro, spero.</h2>
-                    <blockquote><p></p><cite></cite></blockquote>
+                    {{-- <h2>Dum spiro, spero.</h2>
+                    <blockquote><p></p><cite></cite></blockquote> --}}
+
+
                   </div>
               </div>
 
@@ -58,9 +60,9 @@
           </div><!-- /sl-slider -->
 
           <div id="nav-dots" class="nav-dots">
-              <span class="nav-dot-current"></span>
-              <span></span>
-              <span></span>
+              <span class=""><div class="progress-dot"></div></span>
+              <span><div class="progress-dot"></div></span>
+              <span><div class="progress-dot"></div></span>
               {{-- <span></span>
               <span></span> --}}
           </div>

@@ -475,13 +475,13 @@
 		},
 		_stopSlideshow: function() {
 
-			if ( this.options.autoplay ) {
-
-				clearTimeout( this.slideshow );
-				this.isPlaying = false;
-				this.options.autoplay = false;
-
-			}
+			// if ( this.options.autoplay ) {
+			//
+			// 	clearTimeout( this.slideshow );
+			// 	this.isPlaying = true;
+			// 	this.options.autoplay = false;
+			//
+			// }
 
 		},
 		_destroy : function( callback ) {
