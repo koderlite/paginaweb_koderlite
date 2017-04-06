@@ -14,7 +14,7 @@
 									<div class="ch-info serv-color-item1">
 										<div class="ch-info-front ch-img-1"></div>
 										<div class="ch-info-back serv-color-item1">
-											<h3>KODER PAGE</h3>
+											<h3>PAGINAS WEB</h3>
 											<p class="font-josefina">Llega a mas clientes con tu paginas hechas a la medida</p>
 										</div>	
 									</div>
@@ -31,15 +31,15 @@
 									<div class="ch-info serv-color-item2">
 										<div class="ch-info-front ch-img-2"></div>
 										<div class="ch-info-back serv-color-item2">
-											<h3>KODER BLOG</h3>
-											<p class="font-josefina">Manten informado a tus fans o clientes con las noticias mas recientes</p>
+											<h3>WEB APPS</h3>
+											<p class="font-josefina">Desarrollamos apps web a la medida de tus necesidades</p>
 										</div>
 									</div>
 								</div>
 							</div>
 						</a>
 						<br>
-						<p class="font-raleway tam-1-medio-em ser-nombres">BLOGS</p>
+						<p class="font-raleway tam-1-medio-em ser-nombres">DESARROLLO WEB</p>
 					</li>
 					<li class="animated zoomInUp">
 						<a href="#">
@@ -48,8 +48,8 @@
 									<div class="ch-info serv-color-item3">
 										<div class="ch-info-front ch-img-3"></div>
 										<div class="ch-info-back serv-color-item3">
-											<h3>KODER SHOP</h3>
-											<p class="font-josefina">Rota mas rapido tu inventario ofreciendolo en la web</p>
+											<h3>E - COMMERCE</h3>
+											<p class="font-josefina">¡Vende tu producto o servicio a través de internet!</p>
 										</div>
 									</div>
 								</div>
@@ -65,8 +65,8 @@
 									<div class="ch-info serv-color-item4">
 										<div class="ch-info-front ch-img-4"></div>
 										<div class="ch-info-back serv-color-item4">
-											<h3>KODER MOVIL</h3>
-											<p class="font-josefina">Administra tu empresa o clientes a donde quiera que vayas</p>
+											<h3>APPS MOVILES</h3>
+											<p class="font-josefina">¡Todo fácil y rápido desde tus dispositivos móviles!</p>
 										</div>
 									</div>
 								</div>

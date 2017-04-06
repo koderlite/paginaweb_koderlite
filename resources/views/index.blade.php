@@ -16,7 +16,7 @@
 </head>
 <body>
     {{-- include de las secciones --}}
-    @include('secciones.inicio')
+    {{-- @include('secciones.inicio') --}}
 
     {{-- include seccion servicios --}}
     @include('secciones.servicios')
