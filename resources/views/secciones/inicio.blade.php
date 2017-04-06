@@ -29,16 +29,13 @@
 
                   <div class="sl-slide-inner">
                     <div class="bg-img bg-img-2"></div>
-                    <h2>Regula aurea.</h2>
-                    <blockquote><p>Until he extends the circle of his compassion to all living things, man will not himself find peace.</p><cite>Albert Schweitzer</cite></blockquote>
+
                   </div>
               </div>
 
               <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
                   <div class="sl-slide-inner">
                     <div class="bg-img bg-img-3"></div>
-                    <h2>Dum spiro, spero.</h2>
-                    <blockquote><p>Thousands of people who say they 'love' animals sit down once or twice a day to enjoy the flesh of creatures who have been utterly deprived of everything that could make their lives worth living and who endured the awful suffering and the terror of the abattoirs.</p><cite>Dame Jane Morris Goodall</cite></blockquote>
                   </div>
               </div>
 

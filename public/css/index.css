@@ -4,9 +4,13 @@
   background: white;
 }
 .init_slider{
-  height: 80vh;
   background: rgb(235, 235, 235);
 }
+
+nav{
+  height: 20vh;
+}
+
 
 
 
