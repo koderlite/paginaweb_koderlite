@@ -8,11 +8,18 @@
     {{ Html::style(asset('css/bootstrap/material-kit.css')) }}
     {{ Html::style(asset('css/material_icon/icons_md_icon.css')) }}
     {{ Html::style(asset('css/index.css'))}}
+    {{-- css necesarios para el efecto hover de los servicios --}}
+    {{ Html::style(asset('css/plugins/hoverEfect/common.css')) }}
+    {{ Html::style(asset('css/plugins/hoverEfect/style5.css')) }}
+    {{ Html::style(asset('css/plugins/animate.css')) }}
     <title>KoderLite</title>
 </head>
 <body>
     {{-- include de las secciones --}}
-    @include('secciones.inicio')
+    {{-- @include('secciones.inicio') --}}
+
+    {{-- include seccion servicios --}}
+    @include('secciones.servicios')
 
     {{ Html::script(asset('js/plugins/jquery.min.js')) }}
     {{ Html::script(asset('js/plugins/tether.js')) }}
@@ -20,5 +27,8 @@
     {{ Html::script(asset('js/bootstrap/material.min.js')) }}
     {{ Html::script(asset('js/bootstrap/material-kit.js')) }}
     {{ Html::script(asset('js/index.js'))}}
+    {{-- js necesarios para el efecto hover de los servicios --}}
+    {{ Html::script(asset('js/plugins/hoverEfect/modernizr.custom.79639.js')) }}
+
 </body>
 </html>

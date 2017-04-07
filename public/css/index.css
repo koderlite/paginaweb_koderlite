@@ -13,3 +13,74 @@
 
 
 /* SERVICIOS clave => serv*/
+
+/*estilo de fuentes*/
+@import url('https://fonts.googleapis.com/css?family=Kavivanar|Bad+Script|Courgette|Kalam|Macondo|Raleway|Josefin+Sans');
+
+.font-raleway{
+    font-family: 'Raleway', sans-serif;
+}
+
+.font-josefina{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.font-macondo{
+    font-family: 'Macondo', cursive;
+}
+
+.font-courgette{
+    font-family: 'Courgette', cursive;
+}
+
+.font-kalam{
+    font-family: 'Kalam', cursive;
+}
+
+.font-badScript{
+    font-family: 'Bad Script', cursive;
+}
+
+.font-kavivanar{
+    font-family: 'Kavivanar', cursive;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+.tam-1em{
+    font-size: 1em;
+}
+
+.tam-1-medio-em{
+    font-size: 1.5em;
+}
+
+.tam-2em{
+    font-size: 2em;
+}
+
+.tam-2-medio-em{
+    font-size: 2.5em;
+}
+/*fin fuentes*/
+
+#serv-pnl-prin{
+    background-color: #35363A;
+    padding: 30px 0;
+}
+
+    #serv-pnl-title{
+        text-align: center;
+        color: white;
+    }
+
+        #serv-pnl-title h2{
+            margin: 0;
+            margin-top: 5px;
+        }
+
+    .ser-nombres{
+        color: white;
+    }
