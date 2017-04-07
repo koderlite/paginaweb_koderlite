@@ -116,6 +116,9 @@
   line-height: 1;
   text-align: justify;;
 }
+.sl_2_banner img{
+  /*border:1px solid red;*/
+}
 .sl_2_content p span{
   font-size: 1.5em;
 }
@@ -133,6 +136,11 @@
   /*color:#FF8F00;*/
   color: #2196F3;
   font-size: 2em;
+}
+
+.inicia_pro{
+  font-size: 1.2em;
+  font-family: 'Josefin Sans';
 }
 
 

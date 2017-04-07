@@ -57,8 +57,8 @@
                       <div class="col-md-4">
 
                       </div>
-                      <div class="col-md-4">
-
+                      <div class="animated fadeInRight col-md-4 sl_2_banner">
+                          <img src="imagenes/slider/sl_home/banner_browser_koderlite.png" alt="">
                       </div>
                     </div>
                     <div class="sl_2_content">
@@ -80,11 +80,19 @@
                                     <span>Nos importa</span> que tengas <b class="b1">presencia en linea</b>. <br> Nosotros <span class="sp1">lo hacemos por ti</span>,<br> porque en <span class="sp3">koderlite</span> queremos <br><span class="sp2">lo mejor para ti</span>.
                                 </p>
                             </div>
+
+                          </div>
+                          <div class="row">
+                            <div class="col-md-1">
+
+                            </div>
+                            <div class="animated fadeInUp col-md-4">
+                              <button class="btn btn-info inicia_pro" type="button" name="button">Inicia tu Proyecto</button>
+                            </div>
                             <div class="col-md-4">
-                              <button class="btn btn-primary" type="button" name="button">Inicia tu Proyecto</button>
+
                             </div>
                           </div>
-
 
                         </div>
                     </div>
