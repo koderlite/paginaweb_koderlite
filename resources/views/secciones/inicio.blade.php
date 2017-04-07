@@ -15,7 +15,7 @@
                     <div class="bg-img bg-img-1 row">
                         <div class="col-md-4">
 
-                              
+
                         </div>
                         <div class="col-md-4">
 
@@ -26,14 +26,14 @@
                     </div>
                     <div class="sl_1_content">
                       <div class="text-center">
-                        <h2 class="long-shadow animated zoomIn">Bienvenido</h2>
-                        <h3 class="long-shadow animated zoomIn">Estas en</h3>
+                        <h2 class="sl_1_long_shadow animated zoomIn">Bienvenido</h2>
+                        <h3 class="sl_1_long_shadow animated zoomIn">Estas en</h3>
                             <div class="animated fadeInUp sl_1_img">
                               <img class="" src="imagenes/slider/sl_home/img_koderlite_shadow.png" alt="KoderLite">
                             </div>
 
 
-                        <p class="long-shadow animated zoomInUp">Tu sitio web en manos de profesionales</p>
+                        <p class="sl_1_long_shadow animated zoomInUp">Tu sitio web en manos de profesionales</p>
                       </div>
 
                     </div>
@@ -49,8 +49,45 @@
                   data-slice2-scale="1.5">
 
                   <div class="sl-slide-inner">
-                    <div class="bg-img bg-img-2"></div>
+                    <div class="bg-img bg-img-2">
+                      <div class="col-md-4">
 
+
+                      </div>
+                      <div class="col-md-4">
+
+                      </div>
+                      <div class="col-md-4">
+
+                      </div>
+                    </div>
+                    <div class="sl_2_content">
+                        <div class="container-fluid">
+                          <div class="row">
+                            <div class="col-md-1">
+
+                            </div>
+                            <div class="col-md-10">
+                              <h2 class="animated fadeInLeft">Creamos el sitio web <br>de tu negocio</h2>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-1">
+
+                            </div>
+                            <div class="col-md-7">
+                                <p class="animated fadeInUp">
+                                    <span>Nos importa</span> que tengas <b class="b1">presencia en linea</b>. <br> Nosotros <span class="sp1">lo hacemos por ti</span>,<br> porque en <span class="sp3">koderlite</span> queremos <br><span class="sp2">lo mejor para ti</span>.
+                                </p>
+                            </div>
+                            <div class="col-md-4">
+                              <button class="btn btn-primary" type="button" name="button">Inicia tu Proyecto</button>
+                            </div>
+                          </div>
+
+
+                        </div>
+                    </div>
                   </div>
               </div>
 

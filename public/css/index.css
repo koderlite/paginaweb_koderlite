@@ -60,7 +60,7 @@
     max-width: 500px;
 }
 
-.long-shadow {
+.sl_1_long_shadow {
   /*display: inline-block;*/
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
@@ -72,7 +72,67 @@
   text-align: center;
   -o-text-overflow: clip;
   text-overflow: clip;
-  text-shadow: 3px 3px 0 #1a1b1c , 4px 4px 0 #1a1b1c , 5px 5px 0 #1a1b1c , 6px 6px 0 #1a1b1c , 7px 7px 0 #1a1b1c , 8px 8px 0 #1a1b1c , 9px 9px 0 #1a1b1c , 10px 10px 0 #1a1b1c , 11px 11px 0 #1a1b1c , 12px 12px 0 #1a1b1c , 13px 13px 0 #1a1b1c , 14px 14px 0 #1a1b1c , 15px 15px 0 #1a1b1c , 16px 16px 0 #1a1b1c , 17px 17px 0 #1a1b1c , 18px 18px 0 #1a1b1c , 19px 19px 0 #1a1b1c , 20px 20px 0 #1a1b1c ;
+  text-shadow: 3px 3px 0 #1b1b1b , 4px 4px 0 #1b1b1b , 5px 5px 0 #1b1b1b , 6px 6px 0 #1b1b1b , 7px 7px 0 #1b1b1b , 8px 8px 0 #1b1b1b , 9px 9px 0 #1b1b1b , 10px 10px 0 #1b1b1b , 11px 11px 0 #1b1b1b , 12px 12px 0 #1b1b1b , 13px 13px 0 #1b1b1b , 14px 14px 0 #1b1b1b , 15px 15px 0 #1b1b1b , 16px 16px 0 #1b1b1b , 17px 17px 0 #1b1b1b , 18px 18px 0 #1b1b1b , 19px 19px 0 #1b1b1b , 20px 20px 0 #1b1b1b ;
+}
+
+
+.sl_2_long_shadow {
+  /*display: inline-block;*/
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 15px;
+  border: none;
+  /*font: normal 60px/1 "Fredoka One", Helvetica, sans-serif;*/
+
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  text-shadow: 3px 3px 0 #b8c62d , 4px 4px 0 #b8c62d , 5px 5px 0 #b8c62d , 6px 6px 0 #b8c62d , 7px 7px 0 #b8c62d , 8px 8px 0 #b8c62d;
+}
+.sl_2_content{
+  height: 100%;
+  width: 100%;
+  position: relative;
+
+}
+
+.sl_2_content h2{
+  color:#404040;
+  /*color:#607D8B;*/
+  font-family: 'Josefin Sans';
+  font-size:5em;
+  text-transform: uppercase;
+
+}
+
+.sl_2_content p{
+  /*color: #282828;*/
+  color:#616161;
+
+  font-family: 'Roboto';
+  font-size: 2em;
+  text-transform: uppercase;
+  text-indent: 3px;
+  line-height: 1;
+  text-align: justify;;
+}
+.sl_2_content p span{
+  font-size: 1.5em;
+}
+.sl_2_content .b1{
+  color: #F44336;
+}
+.sl_2_content .sp3{
+  color:#FF8F00;
+  font-size: 1em;
+}
+.sl_2_content .sp1{
+  color: #795548;
+}
+.sl_2_content .sp2{
+  /*color:#FF8F00;*/
+  color: #2196F3;
+  font-size: 2em;
 }
 
 
