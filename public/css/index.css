@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Kavivanar|Bad+Script|Courgette|Kalam|Macondo|Raleway|Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
 /*INICIO*/
 .init{
   height: 100vh;
@@ -24,18 +26,53 @@
 
 .sl_1_content h2{
   color:white;
+  font-family: 'Roboto';
+  font-size: 7em;
+  text-transform: uppercase;
+  /*font-weight: bold;*/
 }
 
 .sl_1_content h3{
   color:white;
+  font-family: 'Roboto';
+  font-size: 2em;
+  text-transform: uppercase;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  margin-top: -20px;
+
 }
 
 .sl_1_content p{
   color:white;
+  font-family: 'Roboto';
+  font-size: 1.8em;
+  margin-top: 20px;
+  text-transform: uppercase;
+
+}
+.sl_1_content .sl_1_img{
+  margin-bottom: 20px;
+}
+.sl_1_content .sl_1_img img{
+    width: 100%;
+    height: auto;
+    max-width: 500px;
 }
 
-.sl_1_content .sl_img_1{
-    
+.long-shadow {
+  /*display: inline-block;*/
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 25px;
+  border: none;
+  font: normal 60px/1 "Fredoka One", Helvetica, sans-serif;
+
+  text-align: center;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  text-shadow: 3px 3px 0 #1a1b1c , 4px 4px 0 #1a1b1c , 5px 5px 0 #1a1b1c , 6px 6px 0 #1a1b1c , 7px 7px 0 #1a1b1c , 8px 8px 0 #1a1b1c , 9px 9px 0 #1a1b1c , 10px 10px 0 #1a1b1c , 11px 11px 0 #1a1b1c , 12px 12px 0 #1a1b1c , 13px 13px 0 #1a1b1c , 14px 14px 0 #1a1b1c , 15px 15px 0 #1a1b1c , 16px 16px 0 #1a1b1c , 17px 17px 0 #1a1b1c , 18px 18px 0 #1a1b1c , 19px 19px 0 #1a1b1c , 20px 20px 0 #1a1b1c ;
 }
 
 
@@ -61,7 +98,9 @@ nav{
 /* SERVICIOS clave => serv*/
 
 /*estilo de fuentes*/
-@import url('https://fonts.googleapis.com/css?family=Kavivanar|Bad+Script|Courgette|Kalam|Macondo|Raleway|Josefin+Sans');
+.font-roboto{
+  font-family: 'Roboto', sans-serif;
+}
 
 .font-raleway{
     font-family: 'Raleway', sans-serif;

@@ -25,7 +25,7 @@
     @include('secciones.inicio')
 
     {{-- include seccion servicios --}}
-    @include('secciones.servicios')
+    {{-- @include('secciones.servicios') --}}
 
 
 

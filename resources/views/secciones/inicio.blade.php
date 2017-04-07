@@ -15,12 +15,14 @@
                     <div class="bg-img bg-img-1"></div>
                     <div class="sl_1_content">
                       <div class="text-center">
-                        <h2>Tranquilo</h2>
-                        <h3>Estas en</h3>
+                        <h2 class="long-shadow animated zoomIn">Bienvenido</h2>
+                        <h3 class="long-shadow animated zoomIn">Estas en</h3>
+                            <div class="animated fadeInUp sl_1_img">
+                              <img class="" src="imagenes/slider/sl_home/img_koderlite_shadow.png" alt="KoderLite">
+                            </div>
 
-                            <img class="sl_1_img" src="imagenes/slider/sl_home/img_koderlite.png" alt="KoderLite">
 
-                        <p>Tu sitio web en manos de profesionales</p>
+                        <p class="long-shadow animated zoomInUp">Tu sitio web en manos de profesionales</p>
                       </div>
 
                     </div>
