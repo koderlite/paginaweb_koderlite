@@ -12,7 +12,18 @@
                   data-slice2-scale="2">
 
                   <div class="sl-slide-inner">
-                    <div class="bg-img bg-img-1"></div>
+                    <div class="bg-img bg-img-1 row">
+                        <div class="col-md-4">
+
+                              
+                        </div>
+                        <div class="col-md-4">
+
+                        </div>
+                        <div class="col-md-4">
+
+                        </div>
+                    </div>
                     <div class="sl_1_content">
                       <div class="text-center">
                         <h2 class="long-shadow animated zoomIn">Bienvenido</h2>
@@ -26,6 +37,7 @@
                       </div>
 
                     </div>
+
                   </div>
               </div>
 
