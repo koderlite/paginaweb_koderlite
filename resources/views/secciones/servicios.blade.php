@@ -3,11 +3,11 @@
     <section class="main" id="serv-pnl-prin">
 
 		<div class="container" id="serv-pnl-title">
-			<h3 class="animated fadeInDownBig font-josefina negrita tam-2-medio-em">CONOCE NUESTROS SERVICIOS</h3>
+			<h3 class="ocultar animacion-li-title font-josefina negrita tam-2-medio-em">CONOCE NUESTROS SERVICIOS</h3>
 		</div>
 			
 				<ul class="ch-grid">
-					<li class="animated fadeInLeftBig" id="serv-hover-item1">
+					<li class="ocultar animacion-li-uno" id="serv-hover-item1">
 						<a href="#">
 							<div class="ch-item ch-img-1">				
 								<div class="ch-info-wrap">
@@ -24,7 +24,7 @@
 						<br>
 						<p id="serv-caption-item1" class="font-raleway tam-1-medio-em ser-nombres">PAGINAS WEB</p>
 					</li>
-					<li class="animated zoomInUp">
+					<li class="ocultar animacion-li-dos">
 						<a href="#">
 							<div class="ch-item ch-img-2">
 								<div class="ch-info-wrap">
@@ -41,7 +41,7 @@
 						<br>
 						<p class="font-raleway tam-1-medio-em ser-nombres">DESARROLLO WEB</p>
 					</li>
-					<li class="animated zoomInUp">
+					<li class="ocultar animacion-li-tres">
 						<a href="#">
 							<div class="ch-item ch-img-3">
 								<div class="ch-info-wrap">
@@ -58,7 +58,7 @@
 						<br>
 						<p class="font-raleway tam-1-medio-em ser-nombres">E - COMMERCE</p>
 					</li>
-                    <li class="animated fadeInRightBig">
+					<li class="ocultar animacion-li-cuatro">
 						<a href="#">
 							<div class="ch-item ch-img-4">
 								<div class="ch-info-wrap">

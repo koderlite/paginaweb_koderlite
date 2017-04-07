@@ -38,6 +38,7 @@
     {{ Html::script(asset('js/plugins/slitslider/modernizr.custom.79639.js')) }}
     {{ Html::script(asset('js/plugins/slitslider/jquery.ba-cond.min.js')) }}
     {{ Html::script(asset('js/plugins/slitslider/jquery.slitslider.js'))}}
+    {{ Html::script(asset('js/plugins/scroll-animate-efects/waypoints.min.js'))}}
     {{ Html::script(asset('js/index.js'))}}
 </body>
 </html>

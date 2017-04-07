@@ -130,3 +130,9 @@ nav{
     .ser-nombres{
         color: white;
     }
+
+/* metodos necesarios para el scroll de animate */
+.ocultar{
+    opacity:0;
+}
+

@@ -1,49 +1,49 @@
 /* INICIO */
 
-$(document).ready(function() {
+$(document).ready(function () {
 
-  var Page = (function() {
+  var Page = (function () {
 
-    var $nav = $( '#nav-dots > span' ),
-      slitslider = $( '#slider' ).slitslider( {
-        onBeforeChange : function( slide, pos ) {
+    var $nav = $('#nav-dots > span'),
+      slitslider = $('#slider').slitslider({
+        onBeforeChange: function (slide, pos) {
 
-          $nav.removeClass( 'nav-dot-current' );
-          $nav.eq( pos ).addClass( 'nav-dot-current' );
+          $nav.removeClass('nav-dot-current');
+          $nav.eq(pos).addClass('nav-dot-current');
 
         }
-      } ),
+      }),
 
-      init = function() {
+      init = function () {
 
         initEvents();
 
       },
-      initEvents = function() {
+      initEvents = function () {
 
-        $nav.each( function( i ) {
+        $nav.each(function (i) {
 
-          $( this ).on( 'click', function( event ) {
+          $(this).on('click', function (event) {
 
-            var $dot = $( this );
+            var $dot = $(this);
 
-            if( !slitslider.isActive() ) {
+            if (!slitslider.isActive()) {
 
-              $nav.removeClass( 'nav-dot-current' );
-              $dot.addClass( 'nav-dot-current' );
+              $nav.removeClass('nav-dot-current');
+              $dot.addClass('nav-dot-current');
 
             }
 
-            slitslider.jump( i + 1 );
+            slitslider.jump(i + 1);
             return false;
 
-          } );
+          });
 
-        } );
+        });
 
       };
 
-      return { init : init };
+    return { init: init };
 
   })();
 
@@ -65,5 +65,46 @@ $(document).ready(function() {
   ss.add($items);
 
   */
+
+  // metodo para el efecto de scroll en la clase animated
+  $('.animacion-li-title').waypoint(function () {
+    $(this).toggleClass('fadeInDownBig animated');
+  },
+  {
+    offset: '70%',
+    triggerOnce: true
+  });
+
+  $('.animacion-li-uno').waypoint(function () {
+    $(this).toggleClass('fadeInLeftBig animated');
+  },
+  {
+    offset: '70%',
+    triggerOnce: true
+  });
+
+  $('.animacion-li-dos').waypoint(function () {
+    $(this).toggleClass('fadeInDownBig animated');
+  },
+  {
+    offset: '70%',
+    triggerOnce: true
+  });
+
+  $('.animacion-li-tres').waypoint(function () {
+    $(this).toggleClass('fadeInDownBig animated');
+  },
+  {
+    offset: '70%',
+    triggerOnce: true
+  });
+
+  $('.animacion-li-cuatro').waypoint(function () {
+    $(this).toggleClass('fadeInRightBig animated');
+  },
+  {
+    offset: '70%',
+    triggerOnce: true
+  });
 
 });
