@@ -13,20 +13,16 @@
 
                   <div class="sl-slide-inner">
                     <div class="bg-img bg-img-1"></div>
-                    <div class="sl_container">
-                        <div class="row">
-                          <div class="col-md-8">
-                              <blockquote>
-                                  <h2>lorem</h2>
-                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                              </blockquote>
-                          </div>
-                          <div class="col-md-4 sl_content_img_1">
-                              <div class="sl_content_img_2">
+                    <div class="sl_1_content">
+                      <div class="text-center">
+                        <h2>Tranquilo</h2>
+                        <h3>Estas en</h3>
 
-                              </div>
-                          </div>
-                        </div>
+                            <img class="sl_1_img" src="imagenes/slider/sl_home/img_koderlite.png" alt="KoderLite">
+
+                        <p>Tu sitio web en manos de profesionales</p>
+                      </div>
+
                     </div>
                   </div>
               </div>

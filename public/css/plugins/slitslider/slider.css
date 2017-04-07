@@ -4,7 +4,7 @@
 	overflow: hidden;
 	position: relative;
 }
-blockquote {
+/*blockquote {
     border-left: 0px solid #eee;
 }
 .init_slider .sl-slider h2,
@@ -38,7 +38,7 @@ blockquote {
 	letter-spacing: 5px;
 	padding-top: 30px;
 	display: inline-block;
-}
+}*/
 
 .init_slider .bg-img {
 	padding: 200px;
@@ -238,7 +238,7 @@ blockquote {
 	-ms-animation: roll 1s ease-out both, fadeIn 1s ease-out both;
 	animation: roll 1s ease-out both, fadeIn 1s ease-out both;
 }
-.sl-trans-elems h2{
+	.sl-trans-elems h2{
 	-webkit-animation: moveUp 1s ease-in-out both;
 	-moz-animation: moveUp 1s ease-in-out both;
 	-o-animation: moveUp 1s ease-in-out both;
