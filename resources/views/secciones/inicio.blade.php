@@ -13,10 +13,21 @@
 
                   <div class="sl-slide-inner">
                     <div class="bg-img bg-img-1"></div>
-                    {{-- <h2>Dum spiro, spero.</h2>
-                    <blockquote><p></p><cite></cite></blockquote> --}}
+                    <div class="sl_container">
+                        <div class="row">
+                          <div class="col-md-8">
+                              <blockquote>
+                                  <h2>lorem</h2>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                              </blockquote>
+                          </div>
+                          <div class="col-md-4 sl_content_img_1">
+                              <div class="sl_content_img_2">
 
-
+                              </div>
+                          </div>
+                        </div>
+                    </div>
                   </div>
               </div>
 
@@ -68,6 +79,8 @@
 
     </div>
 
+
     @include('secciones.templates.nav')
+
 
 </header>
