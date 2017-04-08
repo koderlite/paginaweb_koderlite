@@ -11,7 +11,7 @@
 									<div class="ch-info serv-color-item1">
 										<div class="ch-info-front ch-img-1"></div>
 										<div class="ch-info-back serv-color-item1">
-											<h3>PAGINAS WEB</h3>
+											<h3>DISE&ntilde;O WEB</h3>
 											<p class="font-josefina">Llega a mas clientes con tu paginas hechas a la medida</p>
 										</div>
 									</div>
@@ -19,7 +19,7 @@
 							</div>
 						</a>
 						<br>
-						<p id="serv-caption-item1" class="font-raleway tam-1-medio-em ser-nombres">PAGINAS WEB</p>
+						<p id="serv-caption-item1" class="font-raleway tam-1-medio-em ser-nombres">DISE&ntilde;O WEB</p>
 					</li>
 					<li class="ocultar animacion-li-dos">
 						<a class="item_hover" href="#">
