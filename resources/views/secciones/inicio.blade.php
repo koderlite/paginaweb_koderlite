@@ -102,14 +102,13 @@
               <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
                   <div class="sl-slide-inner">
                     <div class="bg-img bg-img-3">
-                      <div class="col-md-4">
+                      <div class="banner_sl_3 animated fadeInLeft col-md-6">
 
-
-                      </div>
-                      <div class="col-md-4">
+                        <img src="imagenes/slider/sl_home/banner_slide_3.png" alt="">
 
                       </div>
-                      <div class="col-md-4">
+
+                      <div class="col-md-6">
 
                       </div>
                     </div>
