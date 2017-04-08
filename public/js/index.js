@@ -110,4 +110,15 @@ $(document).ready(function () {
   // metodo para el efectos de los servicios especificos
   $( '#fc-slideshow' ).flipshow();
 
+
+  $(this).children(':last');
+  $('.item_hover').hover(function(){
+     $(this).parent().children(':last').addClass('animated');
+     $(this).parent().children(':last').addClass('fadeOutDown');
+  },function() {
+    $(this).parent().children(':last').addClass('fadeInUp');
+    $(this).parent().children(':last').removeClass('fadeOutDown');
+
+  });
+
 });
