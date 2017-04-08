@@ -151,6 +151,7 @@
   height: 100%;
   width: 100%;
   position: relative;
+
 }
 
 .sl_3_content h2{
@@ -191,6 +192,8 @@
   /*background-color: rgb(14, 14, 14);*/
   background: white;
 }
+
+
 
 /*    ----TERMINA NAVBAR----*/
 /*========================== TERMINA INICIO ==========================*/
@@ -275,36 +278,4 @@
 
     .ser-nombres{
         color: white;
-    }
-
-/* metodos necesarios para el scroll de animate */
-.ocultar{
-    opacity:0;
-}
-
-/*metodos para los servicios especificos*/
-#fc-slideshow{
-    width: 300px !important;
-    height: 300px !important;
-}
-
-    #fc-slideshow ul li img{
-        width: 300px !important;
-    }
-
-#serv-pg-prin{
-    padding: 65px 5px 10px 5px;
-}
-
-#serv-pag-derecha{
-    padding-right: 35px;
-}
-
-    #serv-pag-derecha h3{
-        font-size: 2em;
-        margin-bottom: 25px;
-    }
-
-    #serv-pag-derecha p{
-        font-size: 2em;
     }
