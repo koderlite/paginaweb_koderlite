@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Kavivanar|Bad+Script|Courgette|Kalam|Macondo|Raleway|Josefin+Sans');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,600');
 /*INICIO*/
 .init{
   height: 100vh;
@@ -8,7 +9,7 @@
 .init_slider{
   background: rgb(235, 235, 235);
   height: 80vh;
-  position: fixed;
+  /*position: fixed;*/
   width: 100%;
 }
 
@@ -149,13 +150,34 @@
 }
 
 .sl_3_content h2{
-  color:#404040;
+  color:#ebebeb;
   /*color:#607D8B;*/
-  font-family: 'Josefin Sans';
-  font-size:5em;
+  font-family: 'Nunito';
+  font-size:3.5em;
+  font-weight: 600;
   text-transform: uppercase;
 
 }
+.sl_3_content ul{
+  list-style: none;
+  text-align: center;
+}
+.sl_3_content ul li{
+  color:#ebebeb;
+  font-family: 'Nunito';
+  font-size: 1.5em;
+  font-weight: 400;
+  padding: 10px;
+}
+.sl_3_content ul li i{
+  font-size: 1.2em;
+  color: #8BC34A;
+}
+
+.btn-lqya{
+  font-size: 1em;
+}
+
 
 
 /*.nav-p{
@@ -166,7 +188,7 @@
 }*/
 
 nav{
-  height: 20vh;
+  height: 200vh;
   width: 100%;
   background-color: white;
 }
@@ -180,6 +202,10 @@ nav{
 /* SERVICIOS clave => serv*/
 
 /*estilo de fuentes*/
+
+.font-nunito{
+  font-family: 'Nunito', sans-serif;
+}
 .font-roboto{
   font-family: 'Roboto', sans-serif;
 }
