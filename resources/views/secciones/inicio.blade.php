@@ -1,4 +1,5 @@
 <header class="init">
+
     <div class="init_slider">
       <div id="slider" class="sl-slider-wrapper">
 
@@ -146,7 +147,7 @@
                               </div>
                               <div class="animated fadeInUp col-md-5">
 
-                                <button class="btn btn-info animated fadeInRight btn-lqya" type="button" name="button">!Lo quiero ya!</button>
+                                <button class="btn btn-white animated fadeInRight btn-lqya" type="button" name="button">!Lo quiero ya!</button>
                               </div>
                             </div>
 
