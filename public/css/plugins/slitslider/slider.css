@@ -151,11 +151,11 @@
 
 .nav-dot-current .progress-dot{
 		width: 100%;
-		-webkit-transition: width linear 4s;
-		-moz-transition: width linear 4s;
-		-ms-transition: width linear 4s;
-		-o-transition: width linear 4s;
-		transition: width linear 4s;
+		-webkit-transition: width linear 7s;
+		-moz-transition: width linear 7s;
+		-ms-transition: width linear 7s;
+		-o-transition: width linear 7s;
+		transition: width linear 7s;
 }
 
 
@@ -216,11 +216,13 @@
 }
 .init_slider .bg-img-2 {
 	/*background-image: url(../../../../imagenes/slider/sl_home/bg2.jpeg);*/
-	background-color: #cddc39;
+	/*background-color: #cddc39;*/
+	background-color: #EEEEEE;
 }
 .init_slider .bg-img-3 {
 	/*background-image: url(../../../../imagenes/slider/sl_home/bg3.jpeg);*/
-	background-color: #2196f3;
+	background-color: #122c34;
+	/*background-color: #f09d51;*/
 }
 /*.init_slider .bg-img-4 {
 	background-image: url(../../../../imagenes/slider/sl_home/bg1.jpeg);
@@ -238,7 +240,7 @@
 	-ms-animation: roll 1s ease-out both, fadeIn 1s ease-out both;
 	animation: roll 1s ease-out both, fadeIn 1s ease-out both;
 }
-	.sl-trans-elems h2{
+	/*.sl-trans-elems h2{
 	-webkit-animation: moveUp 1s ease-in-out both;
 	-moz-animation: moveUp 1s ease-in-out both;
 	-o-animation: moveUp 1s ease-in-out both;
@@ -251,7 +253,7 @@
 	-o-animation: fadeIn 0.5s linear 0.5s both;
 	-ms-animation: fadeIn 0.5s linear 0.5s both;
 	animation: fadeIn 0.5s linear 0.5s both;
-}
+}*/
 .sl-trans-back-elems .deco{
 	-webkit-animation: scaleDown 1s ease-in-out both;
 	-moz-animation: scaleDown 1s ease-in-out both;
@@ -384,7 +386,7 @@
 	}
 
 	.init_slider .sl-slider h2 {
-		font-size: 36px;
+		font-size: 45px;
 	}
 
 	.init_slider .sl-slider blockquote {

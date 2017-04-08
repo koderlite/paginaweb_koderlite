@@ -82,7 +82,7 @@
 		// keyboard navigation
 		keyboard : true,
 		// time between transitions
-		interval : 4000,
+		interval : 7000,
 		// callbacks
 		onBeforeChange : function( slide, idx ) { return false; },
 		onAfterChange : function( slide, idx ) { return false; }
@@ -482,7 +482,7 @@
 
 				// this.isPlaying = false;
 			// 	this.options.autoplay = false;
-			
+
 			}
 
 		},

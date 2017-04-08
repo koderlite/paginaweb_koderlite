@@ -1,12 +1,20 @@
-/*INICIO*/
+@import url('https://fonts.googleapis.com/css?family=Kavivanar|Bad+Script|Courgette|Kalam|Macondo|Raleway|Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,600');
+
+
+
+/*==========================CONTENT INICIO=======================   CLAVE=> 'init'*/
 .init{
   height: 100vh;
   background: white;
 }
+
+/*----------INICIA SLIDESHOW---------- CLAVE => 'sl'*/
 .init_slider{
   background: rgb(235, 235, 235);
   height: 80vh;
-  position: fixed;
+  /*position: fixed;*/
   width: 100%;
 }
 
@@ -24,36 +32,168 @@
 
 .sl_1_content h2{
   color:white;
+  font-family: 'Roboto';
+  font-size: 7em;
+  text-transform: uppercase;
+  /*font-weight: bold;*/
 }
 
 .sl_1_content h3{
   color:white;
+  font-family: 'Roboto';
+  font-size: 2em;
+  text-transform: uppercase;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  margin-top: -20px;
+
 }
 
 .sl_1_content p{
   color:white;
+  font-family: 'Roboto';
+  font-size: 1.8em;
+  margin-top: 20px;
+  text-transform: uppercase;
+
+}
+.sl_1_content .sl_1_img{
+  margin-bottom: 20px;
+}
+.sl_1_content .sl_1_img img{
+    width: 100%;
+    height: auto;
+    max-width: 500px;
 }
 
-.sl_1_content .sl_img_1{
-    
+.sl_1_long_shadow {
+  /*display: inline-block;*/
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 25px;
+  border: none;
+  /*font: normal 60px/1 "Fredoka One", Helvetica, sans-serif;*/
+
+  text-align: center;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  text-shadow: 3px 3px 0 #1b1b1b , 4px 4px 0 #1b1b1b , 5px 5px 0 #1b1b1b , 6px 6px 0 #1b1b1b , 7px 7px 0 #1b1b1b , 8px 8px 0 #1b1b1b , 9px 9px 0 #1b1b1b , 10px 10px 0 #1b1b1b , 11px 11px 0 #1b1b1b , 12px 12px 0 #1b1b1b , 13px 13px 0 #1b1b1b , 14px 14px 0 #1b1b1b , 15px 15px 0 #1b1b1b , 16px 16px 0 #1b1b1b , 17px 17px 0 #1b1b1b , 18px 18px 0 #1b1b1b , 19px 19px 0 #1b1b1b , 20px 20px 0 #1b1b1b ;
 }
 
 
-/*.nav-p{
-  height: auto;
+.sl_2_long_shadow {
+  /*display: inline-block;*/
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 15px;
+  border: none;
+  /*font: normal 60px/1 "Fredoka One", Helvetica, sans-serif;*/
+
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  text-shadow: 3px 3px 0 #b8c62d , 4px 4px 0 #b8c62d , 5px 5px 0 #b8c62d , 6px 6px 0 #b8c62d , 7px 7px 0 #b8c62d , 8px 8px 0 #b8c62d;
+}
+.sl_2_content{
+  height: 100%;
+  width: 100%;
   position: relative;
-  top: 80vh;
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-}*/
 
-/*nav{
+}
+
+.sl_2_content h2{
+  color:#404040;
+  /*color:#607D8B;*/
+  font-family: 'Josefin Sans';
+  font-size:5em;
+  text-transform: uppercase;
+
+}
+
+.sl_2_content p{
+  /*color: #282828;*/
+  color:#616161;
+
+  font-family: 'Roboto';
+  font-size: 2em;
+  text-transform: uppercase;
+  text-indent: 3px;
+  line-height: 1;
+  text-align: justify;;
+}
+
+.sl_2_content p span{
+  font-size: 1.5em;
+}
+.sl_2_content .b1{
+  color: #F44336;
+}
+.sl_2_content .sp3{
+  color:#FF8F00;
+  font-size: 1em;
+}
+.sl_2_content .sp1{
+  color: #795548;
+}
+.sl_2_content .sp2{
+  /*color:#FF8F00;*/
+  color: #2196F3;
+  font-size: 2em;
+}
+
+.inicia_pro{
+  font-size: 1.2em;
+  font-family: 'Josefin Sans';
+}
+
+.sl_3_content{
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.sl_3_content h2{
+  color:#ebebeb;
+  /*color:#607D8B;*/
+  font-family: 'Nunito';
+  font-size:3.5em;
+  font-weight: 600;
+  text-transform: uppercase;
+
+}
+.sl_3_content ul{
+  list-style: none;
+  text-align: center;
+}
+.sl_3_content ul li{
+  color:#ebebeb;
+  font-family: 'Nunito';
+  font-size: 1.5em;
+  font-weight: 400;
+  padding: 10px;
+}
+.sl_3_content ul li i{
+  font-size: 1.2em;
+  color: #8BC34A;
+}
+
+.btn-lqya{
+  font-size: 1em;
+}
+/*---------------TERMINA SLIDESHOW--------------------*/
+
+/*   --- INICIA NAVBAR---    CLAVE=> 'nav'*/
+
+.nav_content{
   height: 20vh;
   width: 100%;
-  background-color: white;
-}*/
+  /*background-color: rgb(14, 14, 14);*/
+  background: white;
+}
 
-
-
+/*    ----TERMINA NAVBAR----*/
+/*========================== TERMINA INICIO ==========================*/
 
 
 
@@ -61,7 +201,13 @@
 /* SERVICIOS clave => serv*/
 
 /*estilo de fuentes*/
-@import url('https://fonts.googleapis.com/css?family=Kavivanar|Bad+Script|Courgette|Kalam|Macondo|Raleway|Josefin+Sans');
+
+.font-nunito{
+  font-family: 'Nunito', sans-serif;
+}
+.font-roboto{
+  font-family: 'Roboto', sans-serif;
+}
 
 .font-raleway{
     font-family: 'Raleway', sans-serif;

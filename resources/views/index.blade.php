@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="favicon.ico" />
     {{ Html::style(asset('css/bootstrap/bootstrap.min.css')) }}
     {{ Html::style(asset('css/bootstrap/material-kit.css')) }}
     {{ Html::style(asset('css/material_icon/icons_md_icon.css')) }}
@@ -26,7 +27,7 @@
     @include('secciones.inicio')
 
     {{-- include seccion servicios --}}
-    @include('secciones.servicios')
+    {{-- @include('secciones.servicios') --}}
 
     {{-- include de la seccion del servicio de pagina web --}}
     @include('secciones.servicios_pw')
