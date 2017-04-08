@@ -14,6 +14,7 @@
     {{ Html::style(asset('css/plugins/animate.css')) }}
     {{ Html::style(asset('css/plugins/slitslider/slitslider.css')) }}
     {{ Html::style(asset('css/plugins/slitslider/slider.css')) }}
+    {{ Html::style(asset('css/plugins/hoverEfect/plugin_hover_circledos.css')) }}
     <noscript>
       {{  Html::style(asset('css/plugins/sliteslider/slitesliderNojs.css')) }}
     </noscript>
@@ -27,8 +28,8 @@
     {{-- include seccion servicios --}}
     @include('secciones.servicios')
 
-
-
+    {{-- include de la seccion del servicio de pagina web --}}
+    @include('secciones.servicios_pw')
 
     {{ Html::script(asset('js/plugins/jquery.min.js')) }}
     {{ Html::script(asset('js/plugins/tether.js')) }}
@@ -36,6 +37,7 @@
     {{ Html::script(asset('js/bootstrap/material.min.js')) }}
     {{ Html::script(asset('js/bootstrap/material-kit.js')) }}
     {{ Html::script(asset('js/plugins/slitslider/modernizr.custom.79639.js')) }}
+    {{ Html::script(asset('js/plugins/hoverEfect/jquery.flipshow.js')) }}
     {{ Html::script(asset('js/plugins/slitslider/jquery.ba-cond.min.js')) }}
     {{ Html::script(asset('js/plugins/slitslider/jquery.slitslider.js'))}}
     {{ Html::script(asset('js/plugins/scroll-animate-efects/waypoints.min.js'))}}

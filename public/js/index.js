@@ -107,4 +107,7 @@ $(document).ready(function () {
     triggerOnce: true
   });
 
+  // metodo para el efectos de los servicios especificos
+  $( '#fc-slideshow' ).flipshow();
+
 });
