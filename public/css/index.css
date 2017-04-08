@@ -2,7 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
 @import url('https://fonts.googleapis.com/css?family=Nunito:300,400,600');
 
-
+/*quitando el scroll horizontal*/
+body{
+  overflow-x: hidden;
+}
 
 /*==========================CONTENT INICIO=======================   CLAVE=> 'init'*/
 .init{
@@ -262,6 +265,7 @@
 /*fin fuentes*/
 
 #serv-pnl-prin{
+    height: 80vh;
     background-color: #35363A;
     padding: 30px 0;
 }
@@ -296,7 +300,8 @@
     }
 
 #serv-pg-prin{
-    padding: 65px 5px 10px 5px;
+    padding: 65px 5px 50px 5px;
+    background: #ffffff;
 }
 
 #serv-pag-derecha{
@@ -304,10 +309,23 @@
 }
 
     #serv-pag-derecha h3{
-        font-size: 2em;
+        font-size: 2.2em;
         margin-bottom: 25px;
     }
 
     #serv-pag-derecha p{
         font-size: 2em;
+        font-family: 'Raleway', sans-serif !important;
+        line-height: 1;
+        text-align: justify;
     }
+
+#serv-pw-btn{
+  margin-top: 20px;
+}
+
+  #serv-pw-btn button{
+  font-size: 1.2em;
+  font-family: 'Raleway', sans-serif;
+  background-color: #2196f3;
+}
