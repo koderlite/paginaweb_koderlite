@@ -186,7 +186,9 @@
     </div>
 
 
-    @include('secciones.templates.nav')
+@include('secciones.templates.nav')
+
+
 
 
 </header>
