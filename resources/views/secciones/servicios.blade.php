@@ -11,7 +11,7 @@
 									<div class="ch-info serv-color-item1">
 										<div class="ch-info-front ch-img-1"></div>
 										<div class="ch-info-back serv-color-item1">
-											<h3>DISE&ntilde;O WEB</h3>
+											<h3>DISE&Ntilde;O WEB</h3>
 											<p class="font-josefina">Llega a mas clientes con tu paginas hechas a la medida</p>
 										</div>
 									</div>
@@ -19,7 +19,7 @@
 							</div>
 						</a>
 						<br>
-						<p id="serv-caption-item1" class="font-raleway tam-1-medio-em ser-nombres">DISE&ntilde;O WEB</p>
+						<p id="serv-caption-item1" class="font-raleway tam-1-medio-em ser-nombres">DISE&Ntilde;O WEB</p>
 					</li>
 					<li class="ocultar animacion-li-dos">
 						<a class="item_hover" href="#">
@@ -28,7 +28,7 @@
 									<div class="ch-info serv-color-item2">
 										<div class="ch-info-front ch-img-2"></div>
 										<div class="ch-info-back serv-color-item2">
-											<h3>WEB APPS</h3>
+											<h3>DESAROLLO</h3>
 											<p class="font-josefina">Desarrollamos apps web a la medida de tus necesidades</p>
 										</div>
 									</div>
@@ -36,7 +36,7 @@
 							</div>
 						</a>
 						<br>
-						<p class="font-raleway tam-1-medio-em ser-nombres">DESARROLLO WEB</p>
+						<p class="font-raleway tam-1-medio-em ser-nombres">DESAROLLO WEB</p>
 					</li>
 					<li class="ocultar animacion-li-tres">
 						<a class="item_hover" href="#">
