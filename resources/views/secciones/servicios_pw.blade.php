@@ -11,7 +11,7 @@
 
     <div class="col-sm-12 col-md-8" id="serv-pag-derecha">
         <h3>DISEÑO WEB</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur ex, deleniti at quaerat provident voluptates saepe quod hic temporibus repellat iste molestiae itaque expedita recusandae mollitia laborum ducimus porro exercitationem.</p>
+        <p>Lorem dolor sit amet, consectetur adipisicing elit. Consectetur ex, deleniti at quaerat provident voluptates saepe quod hic temporibus repellat iste molestiae itaque expedita recusandae mollitia laborum ducimus porro exercitationem.</p>
 
         <div class="text-right" id="serv-pw-btn">
             <button class="btn btn-primary">VER MAS</button>
