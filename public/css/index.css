@@ -116,9 +116,7 @@
   line-height: 1;
   text-align: justify;;
 }
-.sl_2_banner img{
-  /*border:1px solid red;*/
-}
+
 .sl_2_content p span{
   font-size: 1.5em;
 }
@@ -141,6 +139,22 @@
 .inicia_pro{
   font-size: 1.2em;
   font-family: 'Josefin Sans';
+}
+
+.sl_3_content{
+  height: 100%;
+  width: 100%;
+  position: relative;
+
+}
+
+.sl_3_content h2{
+  color:#404040;
+  /*color:#607D8B;*/
+  font-family: 'Josefin Sans';
+  font-size:5em;
+  text-transform: uppercase;
+
 }
 
 

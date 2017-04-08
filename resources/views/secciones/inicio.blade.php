@@ -101,7 +101,60 @@
 
               <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
                   <div class="sl-slide-inner">
-                    <div class="bg-img bg-img-3"></div>
+                    <div class="bg-img bg-img-3">
+                      <div class="col-md-4">
+
+
+                      </div>
+                      <div class="col-md-4">
+
+                      </div>
+                      <div class="col-md-4">
+
+                      </div>
+                    </div>
+                    <div class="sl_3_content">
+                          <div class="container-fluid">
+                            <div class="row">
+                              <div class="col-md-3">
+
+                              </div>
+                              <div class="col-md-9">
+                                <h2 class="text-center animated fadeInLeft">Caracateristicas de nuestros Sitios web</h2>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-5">
+
+                              </div>
+                              <div class="col-md-7">
+
+                                  <ul class="">
+                                    <li><span></span> Usabilidad y Experiencia de Usuario</li>
+                                    <li><span></span> Adaptables a dispositivos moviles</li>
+                                    <li><span></span> Amigables con los motores de busquedas</li>
+                                    <li><span></span> Velocidad de carga</li>
+                                    <li><span></span> Información de contacto clara y a la mano</li>
+                                    <li><span></span> Integración de redes sociales</li>
+                                  </ul>
+                              </div>
+
+                            </div>
+                            <div class="row">
+                              <div class="col-md-5">
+
+                              </div>
+                              <div class="col-md-2">
+                                  <p>¿Necesitas asesoria?</p>
+                              </div>
+                              <div class="animated fadeInUp col-md-5">
+
+                                <button class="btn" type="button" name="button">Contactanos</button>
+                              </div>
+                            </div>
+
+                          </div>
+                      </div>
                   </div>
               </div>
 
