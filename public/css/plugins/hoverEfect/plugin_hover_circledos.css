@@ -13,7 +13,7 @@
 	position: relative;
 	width: 400px;
 	height: 400px;
-	box-shadow: inset 0 0 3px rgba(0,0,0,0.4), 0 0 0 10px #cc2724;
+	box-shadow: inset 0 0 3px rgba(0,0,0,0.4), 0 0 0 10px #00bcd4;
 	border-radius: 50%;
 	margin: 0 auto;
 	-webkit-perspective: 1200px;
@@ -139,7 +139,7 @@
 	font-style: normal;
 	font-weight: normal;
 	font-size: 20px;
-	background: #cc2724;
+	background: #00bcd4;
 	color: #fff;
 	width: 40px;
 	height: 40px;
@@ -237,17 +237,20 @@ ul.fc-slides li {
 	position: absolute;
 	color: #fff;
 	top: 50%;
-	margin-top: 30px;
+	margin-top: 70px;
 	line-height: 50px;
 	height: 50px;
 	left: 80px;
 	right: 80px;
-	background: #ff514c;
 	font-size: 22px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	text-align: center;
 	border-radius: 20% 10% 50% 5% / 25% 10% 30% 75%;
+}
+
+.color-celeste{
+	background: #00bcd4;
 }
 
 .fc-overlay-light,
