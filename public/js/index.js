@@ -120,5 +120,14 @@ $(document).ready(function () {
     $(this).parent().children(':last').removeClass('fadeOutDown');
 
   });
+  var scrollTop=$('.nav_content').position().top;
+  
+  $(document).scroll(function(){
+    if($(this).scrollTop()>scrollTop){
+        $('.nav_content').addClass('fixed_nav');
+    }else{
+        $('.nav_content').removeClass('fixed_nav');
+    }
+  });
 
 });

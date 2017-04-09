@@ -54,7 +54,7 @@ body{
 
 .sl_1_content p{
   color:white;
-  font-family: 'Roboto';
+  font-family: 'Josefin Sans';
   font-size: 1.8em;
   margin-top: 20px;
   text-transform: uppercase;
@@ -196,7 +196,64 @@ body{
   background: #f5f5f5;
   border-top: 1px solid #E0E0E0;
 }
+.nav_content nav{
+  height: 100%;
+}
+ .nav_brand img{
+   height: auto;
+   width: 100%;
+ }
+ .nav_menu{
+   height: 100%;
+ }
 
+ .nav_menu ul{
+   list-style-type: none;
+    height:100%;
+    display: flex;
+    align-items: center;
+
+ }
+
+ .nav_menu ul li{
+    display: inline-block;;
+    width: auto;
+    text-align: center;
+    padding: 10px;
+ }
+
+ .nav_menu ul li:hover{
+   /*background-color: rgb(217, 217, 217);*/
+   /*color: rgb(0, 177, 224);*/
+ }
+ .nav_menu ul li:hover > a{
+   /*background-color: rgb(217, 217, 217);*/
+   color: rgb(0, 177, 224);
+ }
+ .nav_menu ul li a.active{
+   color: rgb(0, 177, 224);
+ }
+ .nav_menu ul li a{
+   display: block;
+   padding: 10px;
+   color: rgb(159, 159, 159);
+   font-family: 'Josefin Sans';
+   font-size: 1.5em;
+   text-transform: uppercase;
+  text-decoration: none;
+ }
+
+.fixed_nav{
+  position: fixed;
+  top: 0;
+  z-index: 100001;
+  box-shadow: 10px 0px 2px #2e2e2e;
+  -webkit-transition: width linear 1s;
+  -moz-transition: width linear 1s;
+  -ms-transition: width linear 1s;
+  -o-transition: width linear 1s;
+  transition: width linear 1s;
+}
 
 
 /*    ----TERMINA NAVBAR----*/
