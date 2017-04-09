@@ -110,7 +110,7 @@ $(document).ready(function () {
   // metodo para el efectos de los servicios especificos
   $( '#fc-slideshow' ).flipshow();
 
-
+//EFECTOS DE SERVICIOS SECCION 2
   $(this).children(':last');
   $('.item_hover').hover(function(){
      $(this).parent().children(':last').addClass('animated');
@@ -120,8 +120,10 @@ $(document).ready(function () {
     $(this).parent().children(':last').removeClass('fadeOutDown');
 
   });
+
+  //EFECTO FIXED NAVBAR
   var scrollTop=$('.nav_content').position().top;
-  
+
   $(document).scroll(function(){
     if($(this).scrollTop()>scrollTop){
         $('.nav_content').addClass('fixed_nav');
@@ -130,4 +132,30 @@ $(document).ready(function () {
     }
   });
 
+  //SCROLL A SECCIONES INDIVIDUALES Y MANEJO DE ELEMENTOS EN EL NAV
+  var navActive="#init";
+  $('.nav_content a').click(function(evt){
+      var section=$(this).attr('href');
+      koderScroll(section);
+      $('.nav_content a[href=\''+navActive+'\']').removeClass('active');
+      $(this).addClass('active');
+      navActive=section;
+
+      evt.preventDefault();
+  });
+  //CONVERTIR DE VH A PIXELES
+  var vhToPx=function(vh){
+    return (window.innerHeight/100)*vh;
+  }
+  //HACER SCROLL A UNA SECCION ESPECIFICA YA EXCLUYENDO EL NAV
+  var koderScroll=function(section){
+    var position=section=="#init"?$(section).offset().top:($(section).offset().top - vhToPx(20));
+    $('html,body').animate({scrollTop:position},500);
+  }
+  //HACER SCROLL CON SOLO AGREGAR UNA clase
+  $('.koderScroll').click(function(evt){
+      var section=$(this).attr('href');
+      koderScroll(section);
+      evt.preventDefault();
+  });
 });

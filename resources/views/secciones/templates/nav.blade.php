@@ -5,8 +5,8 @@
       </div>
       <div class="nav_menu col-md-8">
           <ul>
-            <li><a class="active" href="#">Inicio</a></li>
-            <li><a href="#">Servicios</a></li>
+            <li><a class="active" href="#init">Inicio</a></li>
+            <li><a href="#serv-pnl-prin">Servicios</a></li>
             <li><a href="#">Acerca de</a></li>
             <li><a href="#">Blog</a></li>
             <li><a href="#">Contacto</a></li>
