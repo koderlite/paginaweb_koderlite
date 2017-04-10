@@ -199,6 +199,13 @@ body{
 .nav_content nav{
   height: 100%;
 }
+.nav_brand{
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
  .nav_brand img{
    height: auto;
    width: 100%;
@@ -247,18 +254,28 @@ body{
   position: fixed;
   top: 0;
   z-index: 100001;
+  height: 15vh;
   box-shadow: 10px 0px 2px #2e2e2e;
-  -webkit-transition: width linear 1s;
-  -moz-transition: width linear 1s;
-  -ms-transition: width linear 1s;
-  -o-transition: width linear 1s;
-  transition: width linear 1s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 
 /*    ----TERMINA NAVBAR----*/
 /*========================== TERMINA INICIO ==========================*/
 
+/*         -------INICIA =OBTENER SERVICIO= ---------------    */
+
+.obt_serv_content{
+  height: 85vh;
+  width: 100%;
+}
+
+
+/*    ------------------TERMINA =OBTENER SERVICIO=---------------------    */
 
 
 
@@ -323,7 +340,7 @@ body{
 /*fin fuentes*/
 
 #serv-pnl-prin{
-    height: 80vh;
+    height: 85vh;
     background-color: #35363A;
     padding: 30px 0;
 }

@@ -122,34 +122,48 @@ $(document).ready(function () {
   });
 
   //EFECTO FIXED NAVBAR
-  var scrollTop=$('.nav_content').position().top;
+
 
   $(document).scroll(function(){
+    scrollListener();
+  });
+  var scrollTop=$('.nav_content').position().top;
+  scrollTop=scrollTop-1;
+  var scrollListener=function(){
     if($(this).scrollTop()>scrollTop){
         $('.nav_content').addClass('fixed_nav');
+        $('.nav_brand').removeClass('col-md-4');
+        $('.nav_brand').addClass('col-md-3')
     }else{
         $('.nav_content').removeClass('fixed_nav');
+        $('.nav_brand').removeClass('col-md-3');
+        $('.nav_brand').addClass('col-md-4')
     }
-  });
+  };
 
   //SCROLL A SECCIONES INDIVIDUALES Y MANEJO DE ELEMENTOS EN EL NAV
-  var navActive="#init";
-  $('.nav_content a').click(function(evt){
-      var section=$(this).attr('href');
-      koderScroll(section);
-      $('.nav_content a[href=\''+navActive+'\']').removeClass('active');
-      $(this).addClass('active');
-      navActive=section;
 
+  $('.nav_content a').click(function(evt){
       evt.preventDefault();
+      scrollNavAction($(this));
+
   });
+  var navActive="#inicio";
+  var scrollNavAction=function(sectionThis){
+    var section=$(sectionThis).attr('href');
+    koderScroll(section);
+    $('.nav_content a[href=\''+navActive+'\']').removeClass('active');
+    $(thisSe).addClass('active');
+    navActive=section;
+
+  }
   //CONVERTIR DE VH A PIXELES
   var vhToPx=function(vh){
     return (window.innerHeight/100)*vh;
   }
   //HACER SCROLL A UNA SECCION ESPECIFICA YA EXCLUYENDO EL NAV
   var koderScroll=function(section){
-    var position=section=="#init"?$(section).offset().top:($(section).offset().top - vhToPx(20));
+    var position=section=="#inicio"?$(section).offset().top:($(section).offset().top - vhToPx(15));
     $('html,body').animate({scrollTop:position},500);
   }
   //HACER SCROLL CON SOLO AGREGAR UNA clase

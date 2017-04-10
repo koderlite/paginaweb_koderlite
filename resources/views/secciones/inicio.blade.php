@@ -1,4 +1,4 @@
-<header class="init" id="init">
+<header class="init" id="inicio">
 
     <div class="init_slider">
       <div id="slider" class="sl-slider-wrapper">

@@ -30,7 +30,10 @@
     @include('secciones.servicios')
 
     {{-- include de la seccion del servicio de pagina web --}}
-    @include('secciones.servicios_pw')
+    {{-- @include('secciones.servicios_pw') --}}
+
+    {{-- include de la seccion de obtener servicios --}}
+    @include('secciones.obtener_servicio')
 
     {{ Html::script(asset('js/plugins/jquery.min.js')) }}
     {{ Html::script(asset('js/plugins/tether.js')) }}
