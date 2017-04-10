@@ -109,6 +109,9 @@ $(document).ready(function () {
 
   // metodo para el efectos de los servicios especificos
   $( '#fc-slideshow' ).flipshow();
+  $( '#fc-slideshow2' ).flipshow();
+  $( '#fc-slideshow3' ).flipshow();
+  $( '#fc-slideshow4' ).flipshow();
 
 //EFECTOS DE SERVICIOS SECCION 2
   $(this).children(':last');

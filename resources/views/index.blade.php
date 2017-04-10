@@ -30,7 +30,7 @@
     @include('secciones.servicios')
 
     {{-- include de la seccion del servicio de pagina web --}}
-    {{-- @include('secciones.servicios_pw') --}}
+    @include('secciones.servicios_all')
 
     {{-- include de la seccion de obtener servicios --}}
     @include('secciones.obtener_servicio')

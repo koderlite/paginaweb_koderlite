@@ -5,7 +5,7 @@
 
 				<ul class="ch-grid">
 					<li class="ocultar animacion-li-uno letter-fade" id="serv-hover-item1">
-						<a class="item_hover" href="#">
+						<a class="item_hover koderScroll" href="#serv-1-prin">
 							<div class="ch-item ch-img-1">
 								<div class="ch-info-wrap">
 									<div class="ch-info serv-color-item1">
@@ -22,7 +22,7 @@
 						<p id="serv-caption-item1" class="font-raleway tam-1-medio-em ser-nombres">DISE&Ntilde;O WEB</p>
 					</li>
 					<li class="ocultar animacion-li-dos">
-						<a class="item_hover" href="#">
+						<a class="item_hover koderScroll" href="#serv-2-prin">
 							<div class="ch-item ch-img-2">
 								<div class="ch-info-wrap">
 									<div class="ch-info serv-color-item2">
@@ -39,7 +39,7 @@
 						<p class="font-raleway tam-1-medio-em ser-nombres">DESAROLLO WEB</p>
 					</li>
 					<li class="ocultar animacion-li-tres">
-						<a class="item_hover" href="#">
+						<a class="item_hover koderScroll" href="#serv-3-prin">
 							<div class="ch-item ch-img-3">
 								<div class="ch-info-wrap">
 									<div class="ch-info serv-color-item3">
@@ -56,7 +56,7 @@
 						<p class="font-raleway tam-1-medio-em ser-nombres">E - COMMERCE</p>
 					</li>
 					<li class="ocultar animacion-li-cuatro">
-						<a class="item_hover" href="#">
+						<a class="item_hover koderScroll" href="#serv-4-prin">
 							<div class="ch-item ch-img-4">
 								<div class="ch-info-wrap">
 									<div class="ch-info serv-color-item4">
