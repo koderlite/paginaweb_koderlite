@@ -1,4 +1,4 @@
-<section class="main" id="serv-pnl-prin">
+<section class="" id="serv-pnl-prin">
 		<div class="container" id="serv-pnl-title">
 			<h3 class="ocultar animacion-li-title font-josefina negrita tam-2-medio-em">CONOCE NUESTROS SERVICIOS</h3>
 		</div>

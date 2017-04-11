@@ -269,10 +269,11 @@ body{
 
 /*         -------INICIA =OBTENER SERVICIO= ---------------    */
 
-.obt_serv_content{
+.init_serv_content{
   height: 85vh;
   width: 100%;
 }
+
 
 
 /*    ------------------TERMINA =OBTENER SERVICIO=---------------------    */
@@ -447,7 +448,7 @@ body{
   margin-top: 20px;
 }
 
-  .serv-pw-btn button{
+.serv-pw-btn button{
   font-size: 1.2em;
   font-family: 'Raleway', sans-serif;
   background-color: #2196f3;

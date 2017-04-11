@@ -156,7 +156,7 @@ $(document).ready(function () {
     var section=$(sectionThis).attr('href');
     koderScroll(section);
     $('.nav_content a[href=\''+navActive+'\']').removeClass('active');
-    $(thisSe).addClass('active');
+    $(sectionThis).addClass('active');
     navActive=section;
 
   }
@@ -166,7 +166,7 @@ $(document).ready(function () {
   }
   //HACER SCROLL A UNA SECCION ESPECIFICA YA EXCLUYENDO EL NAV
   var koderScroll=function(section){
-    var position=section=="#inicio"?$(section).offset().top:($(section).offset().top - vhToPx(15));
+    var position=section=="#inicio"?$(section).offset().top:($(section).offset().top - vhToPx(15))+1;
     $('html,body').animate({scrollTop:position},500);
   }
   //HACER SCROLL CON SOLO AGREGAR UNA clase
