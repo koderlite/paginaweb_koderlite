@@ -267,12 +267,81 @@ body{
 /*    ----TERMINA NAVBAR----*/
 /*========================== TERMINA INICIO ==========================*/
 
-/*         -------INICIA =OBTENER SERVICIO= ---------------    */
+/*         -------INICIA =INICIAR SERVICIO= CLAVE=> INIT_SERV ---------------    */
 
 .init_serv_content{
   height: 85vh;
   width: 100%;
 }
+.init_serv_content .row{
+  height: 100%;
+}
+.init_serv_content .init_serv_left{
+  height: 100%;
+  background: #383B3C;
+  padding: 0 !important;
+}
+
+.init_serv_left .left_static ,.left_dinamic{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  padding: 0; 
+  
+}
+.left_dinamic{
+  display: none;
+}
+
+
+.init_serv_left .left_static h3{
+  text-align: center;
+  font-family: 'Josefin Sans';
+  font-size: 3.2em;
+  text-transform: uppercase;
+  color:white;
+}
+
+.init_serv_left .left_static h4{
+  text-align: center;
+  font-family: 'Josefin Sans';
+  font-size: 2em;
+  color:white;
+
+}
+.left_static .static_steps{
+  list-style: none;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  padding-left: 0;
+}
+.static_steps li{
+  display: inline-block;
+  margin: 5px;
+  color: #DDDDDD;
+  
+}
+.static_steps li div{
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  background-color: white;
+
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.static_steps li .active{
+    background-color: #0074A8;
+}
+
+
+
 
 
 
