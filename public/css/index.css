@@ -289,10 +289,6 @@ body{
   padding: 0; 
   
 }
-.left_dinamic{
-  display: none;
-}
-
 
 .init_serv_left .left_static h3{
   text-align: center;
@@ -340,9 +336,27 @@ body{
     background-color: #0074A8;
 }
 
+.left_dinamic .left_slider{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
 
+.left_slider > div{
+  width: 100%;
+  height:100%;
+  position: absolute;
+}
 
-
+.lef_slider .slide_1{
+    background-color: #D8D8D8;
+}
+.lef_slider .slide_2{
+    background-color: #FF7600;
+}
+.lef_slider .slide_3{
+    background-color: #89DF31;  
+}
 
 
 /*    ------------------TERMINA =OBTENER SERVICIO=---------------------    */
