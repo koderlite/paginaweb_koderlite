@@ -2,9 +2,8 @@
     <div class="row">
       <div class="col-md-6 init_serv_left">
           
-          <div class="left_static">
+          <div class="left_static left_slider_color1">
               <h3>Inicia tu proyecto con nosotros</h3>
-              <h4>en 3 sencillos pasos</h4>
               <ul class="static_steps">
                 <li class="steps_dots1"><div class="active">
                   
@@ -19,6 +18,12 @@
           </div>
           <div class="left_dinamic">
             <div class="left_slider">
+              <div class="slide_1">
+                  <p><i class="material-icons">touch_app</i> En 3 sencillos pasos</p>
+                  <div class="sl_img">
+                    
+                  </div>
+              </div>
               <div class="slide_1">
                   <p><i class="material-icons">touch_app</i> Selecciona un servicio</p>
                   <div class="sl_img">
