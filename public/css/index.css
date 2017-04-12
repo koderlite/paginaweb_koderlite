@@ -276,12 +276,13 @@ body{
 .init_serv_content .row{
   height: 100%;
 }
+
+/*-------------------------------------------------------------DIVISION LEFT*/
 .init_serv_content .init_serv_left{
   height: 100%;
   background: #122c34;
   padding: 0 !important;
 }
-
 .init_serv_left .left_static ,.left_dinamic{
   height: 100%;
   width: 100%;
@@ -298,6 +299,8 @@ body{
   transition: all 0.5s;
 }
 
+/*-------------------------------------MAQUETACION DE CONTENIDO LEFT ESTATICO*/
+
 .init_serv_left .left_static h3{
   text-align: center;
   font-family: 'Josefin Sans';
@@ -306,36 +309,9 @@ body{
   color:white;
 }
 
-.left_static .static_steps{
-  list-style: none;
-  position: absolute;
-  bottom: 10px;
-  width: 100%;
-  text-align: center;
-  padding-left: 0;
-}
-.static_steps li{
-  display: inline-block;
-  margin: 5px;
-  color: #DDDDDD;
-  
-}
-.static_steps li div{
-  width: 1em;
-  height: 1em;
-  border-radius: 50%;
-  background-color: white;
+/*---------------------------------------MAQUETACION DE CONTENIDO LEFT DINAMICO*/
 
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
-}
-
-.static_steps li .active{
-    background-color: #0074A8;
-}
+/*----------------------------------SLIDE 'EMPEZAR'*/
 
 .left_dinamic{
   overflow: hidden;
@@ -353,7 +329,7 @@ body{
   height:100%;
   float: left; 
 }
-
+/*----------------------------------DISENO DE CONTENIDO*/
 .left_slider .slide_0{
     text-align: center;
 }
@@ -415,6 +391,10 @@ body{
   vertical-align: -10px;
 }
 
+/*-------------------------------------FIN DISENO CONTENIDO*/
+
+/*ANIMACION*/
+
 @keyframes slide_init {
 0% { left: 0%; }
 20% { left: 0%; }
@@ -465,6 +445,9 @@ body{
 .reset_init_move_slide{
   animation: 1s reset_move;
 }
+/*FIN ANIMACION*/
+/*-----------------------------------------------FIN SLIDE 'EMPEZAR'*/
+
 
 
 

@@ -4,20 +4,7 @@
           
           <div class="left_static">
               <h3>Inicia tu proyecto con nosotros</h3>
-              {{-- <ul class="static_steps">
-                <li class="steps_dots0"><div class="active">
-                  
-                </div></li>
-                <li class="steps_dots1"><div>
-                  
-                </div></li>
-                <li class="steps_dots2"><div>
-                  
-                </div></li>
-                <li class="steps_dots3"><div>
-                  
-                </div></li>
-              </ul> --}}
+              
           </div>
           <div class="left_dinamic">
             <div class="left_slider">
