@@ -255,7 +255,7 @@ body{
   top: 0;
   z-index: 100001;
   height: 15vh;
-  box-shadow: 10px 0px 2px #2e2e2e;
+  /*box-shadow: 10px 0px 2px #2e2e2e;*/
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -ms-transition: all 0.5s;
@@ -278,7 +278,7 @@ body{
 }
 .init_serv_content .init_serv_left{
   height: 100%;
-  background: #383B3C;
+  background: #122c34;
   padding: 0 !important;
 }
 
@@ -354,16 +354,21 @@ body{
   float: left; 
 }
 
-.left_slider_color1{
-    background-color: #D8D8D8;
+.left_slider .slide_0{
+    text-align: center;
 }
-.left_slider_color2{
-    background-color: #FF7600;
-}
-.left_slider_color3{
-    background-color: #89DF31;  
+.left_slider .slide_0 p{
+  position: relative;
+  top: 40%;
+  font-family: 'Josefin Sans';
+  font-size: 2em;
 }
 
+.slide_0 p i{
+  margin: 5px;
+  font-size: 1.5em;
+  vertical-align: -10px;
+}
 .left_slider .slide_1{
     text-align: center;
 }
@@ -374,6 +379,11 @@ body{
   font-size: 2em;
 }
  
+.slide_1 p i{
+  margin: 5px;
+  font-size: 1.5em;
+  vertical-align: -10px;
+}
 .left_slider .slide_2{
     text-align: center;
 }
@@ -382,6 +392,11 @@ body{
   top: 40%;
   font-family: 'Josefin Sans';
   font-size: 2em;
+}
+.slide_2 p i{
+  margin: 5px;
+  font-size: 1.5em;
+  vertical-align: -10px;
 }
 
 .left_slider .slide_3{
@@ -394,8 +409,69 @@ body{
   font-size: 2em;
 }
 
+.slide_3 p i{
+  margin: 5px;
+  font-size: 1.5em;
+  vertical-align: -10px;
+}
+
+@keyframes slide_init {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: 0%; }
+}
+@keyframes change_background {
+0% {background-color: #122c34; }
+20% {background-color: #122c34; }
+25% { background-color: #17bebb; }
+45% { background-color: #17bebb; }
+50% { background-color: #85cb33;  }
+70% { background-color: #85cb33;  }
+75% { background-color: #fbfef9; }
+95% { background-color: #fbfef9; }
+100% { background-color: #122c34; }
+}
+
+@keyframes reset_color{
+  
+  0% { background-color: #85cb33; }
+  45% {  background-color: #fbfef9; }
+  70% { background-color: #17bebb; }
+  95% {background-color: #122c34; }
+}
+
+@keyframes reset_move{
+   0% { left: -300%; }
+   /*45% { left: -200%; }
+   70% { left: -100%; }*/
+   95% { left: 0%; }
+}
+.start_init_color_slide{
+  animation: 12s change_background infinite;
+}
+.start_init_move_slide{
+  animation: 12s slide_init infinite;
+}
+
+.reset_init_color_slide{
+  animation: 1s reset_color
+}
+.reset_init_move_slide{
+  animation: 1s reset_move;
+}
 
 
+
+.init_serv_right{
+  background-color: #fbfef9;
+  height: 100%;
+}
 /*    ------------------TERMINA =OBTENER SERVICIO=---------------------    */
 
 

@@ -2,10 +2,13 @@
     <div class="row">
       <div class="col-md-6 init_serv_left">
           
-          <div class="left_static left_slider_color1">
+          <div class="left_static">
               <h3>Inicia tu proyecto con nosotros</h3>
-              <ul class="static_steps">
-                <li class="steps_dots1"><div class="active">
+              {{-- <ul class="static_steps">
+                <li class="steps_dots0"><div class="active">
+                  
+                </div></li>
+                <li class="steps_dots1"><div>
                   
                 </div></li>
                 <li class="steps_dots2"><div>
@@ -14,12 +17,12 @@
                 <li class="steps_dots3"><div>
                   
                 </div></li>
-              </ul>
+              </ul> --}}
           </div>
           <div class="left_dinamic">
             <div class="left_slider">
-              <div class="slide_1">
-                  <p><i class="material-icons">touch_app</i> En 3 sencillos pasos</p>
+              <div class="slide_0 active">
+                  <p><i class="material-icons">format_list_numbered</i> En 3 sencillos pasos</p>
                   <div class="sl_img">
                     
                   </div>
