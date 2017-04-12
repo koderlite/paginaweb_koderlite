@@ -300,11 +300,19 @@ body{
 }
 
 /*-------------------------------------MAQUETACION DE CONTENIDO LEFT ESTATICO*/
+.init_serv_left .init_serv_title{
 
-.init_serv_left .left_static h3{
   text-align: center;
-  font-family: 'Josefin Sans';
+  width: 80%;
+  height: auto;
+  margin: 0px auto;
+  margin-top: 10%;
+}
+.init_serv_left .left_static h3{
+  
+  font-family: 'Nunito';
   font-size: 3.2em;
+  font-weight: bold;
   text-transform: uppercase;
   color:white;
 }
@@ -335,44 +343,58 @@ body{
 }
 .left_slider .slide_0 p{
   position: relative;
-  top: 40%;
-  font-family: 'Josefin Sans';
-  font-size: 2em;
+  top:50%;
+  font-family: 'Nunito';
+  font-size: 2.5em; 
+  border-radius: 3px;  
+  color: #E4E4E4;
+  background-color: #f93943;
+  width: 55%;
+  height: 15%;
+  padding: 20px;
+  margin: 0px auto;  
+  border: 10px solid #D32F37; 
 }
 
-.slide_0 p i{
-  margin: 5px;
-  font-size: 1.5em;
-  vertical-align: -10px;
-}
+ 
 .left_slider .slide_1{
     text-align: center;
 }
 .left_slider .slide_1 p{
   position: relative;
-  top: 40%;
+  top:48%;
   font-family: 'Josefin Sans';
   font-size: 2em;
+  border: 2px dashed  #ffffff;
+  width: 55%;
+  padding: 20px;
+  margin: 0px auto;
 }
  
-.slide_1 p i{
+.slide_1 i{
   margin: 5px;
-  font-size: 1.5em;
-  vertical-align: -10px;
+  font-size: 3em;
+  position:relative;
+  top:43%;
 }
 .left_slider .slide_2{
     text-align: center;
 }
 .left_slider .slide_2 p{
   position: relative;
-  top: 40%;
+  top:48%;
   font-family: 'Josefin Sans';
   font-size: 2em;
+  border: 2px dashed  #ffffff;
+  width: 55%;
+  padding: 20px;
+  margin: 0px auto;
 }
-.slide_2 p i{
+.slide_2 i{
   margin: 5px;
-  font-size: 1.5em;
-  vertical-align: -10px;
+  font-size: 3em;
+  position:relative;
+  top:43%;
 }
 
 .left_slider .slide_3{
@@ -380,15 +402,20 @@ body{
 }
 .left_slider .slide_3 p{
   position: relative;
-  top: 40%;
+  top:48%;
   font-family: 'Josefin Sans';
   font-size: 2em;
+  border: 2px dashed  #ffffff;
+  width: 50%;
+  padding: 20px;
+  margin: 0px auto;
 }
 
-.slide_3 p i{
+.slide_3 i{
   margin: 5px;
-  font-size: 1.5em;
-  vertical-align: -10px;
+  font-size: 3em;
+  position:relative;
+  top:43%;
 }
 
 /*-------------------------------------FIN DISENO CONTENIDO*/
