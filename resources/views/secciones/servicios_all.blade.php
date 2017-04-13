@@ -6,15 +6,15 @@
                 <div id="fc-slideshow" class="fc-slideshow color-box-shadow">
                     <ul class="fc-slides">
                         <li>
-                            <img width="300" height="300" src="{{ asset('imagenes/servicios/servicio-pagina-web-1.png') }}"/>
+                            <img width="400" height="400" src="{{ asset('imagenes/servicios/servicio-pagina-web-1.png') }}"/>
                             <h3 class="color-celeste">Unicas</h3>
                         </li>
                         <li>
-                            <img width="300" height="300" src="{{ asset('imagenes/servicios/creativas.png') }}" />
+                            <img width="400" height="400" src="{{ asset('imagenes/servicios/creativas.png') }}" />
                             <h3 class="color-celeste">Creativas</h3>
                         </li>
                         <li>
-                            <img width="300" height="300" src="{{ asset('imagenes/servicios/adaptables.png') }}" />
+                            <img width="400" height="400" src="{{ asset('imagenes/servicios/adaptables.png') }}" />
                             <h3 class="color-celeste">Adaptables</h3>
                         </li>
                     </ul>
@@ -32,7 +32,11 @@
         </div>
         {{-- /design_w --}}
 
-        <div class="col-sm-12 col-md-12 divisor"></div>
+        <div class="col-sm-12 col-md-12 divisor">
+            <a href="#serv-2-prin" class="divisor-hijo koderScroll">
+                <i class="material-icons large blue-text">keyboard_arrow_down</i>
+            </a>
+        </div>
 
         {{-- servicio de desarrollo web --}}
         <div class="col-sm-12 col-md-12 serv-pg-prin" id="serv-2-prin">
@@ -49,15 +53,15 @@
                 <div id="fc-slideshow2" class="fc-slideshow">
                     <ul class="fc-slides">
                         <li>
-                            <img width="300" height="300" src="{{ asset('imagenes/servicios/productivas.png') }}"/>
+                            <img width="400" height="400" src="{{ asset('imagenes/servicios/productivas.png') }}"/>
                             <h3>Productivas</h3>
                         </li>
                         <li>
-                            <img width="300" height="300" src="{{ asset('imagenes/servicios/code.png') }}" />
+                            <img width="400" height="400" src="{{ asset('imagenes/servicios/code.png') }}" />
                             <h3>Escalables</h3>
                         </li>
                         <li>
-                            <img width="300" height="300" src="{{ asset('imagenes/servicios/seguras.png') }}" />
+                            <img width="400" height="400" src="{{ asset('imagenes/servicios/seguras.png') }}" />
                             <h3>Seguras</h3>
                         </li>
                     </ul>
@@ -66,7 +70,11 @@
         </div>
         {{-- dev_web --}}
 
-        <div class="col-sm-12 col-md-12 divisor"></div>
+        <div class="col-sm-12 col-md-12 divisor">
+            <a href="#serv-3-prin" class="divisor-hijo koderScroll">
+                <i class="material-icons large blue-text">keyboard_arrow_down</i>
+            </a>
+        </div>
 
         {{-- servicio de desarrollo e-commerce --}}
         <div class="col-sm-12 col-md-12 serv-pg-prin" id="serv-3-prin">
@@ -74,15 +82,15 @@
                 <div id="fc-slideshow3" class="fc-slideshow">
                     <ul class="fc-slides">
                         <li>
-                            <img width="300" height="300" src="{{ asset('imagenes/servicios/ventas.png') }}"/>
+                            <img width="400" height="400" src="{{ asset('imagenes/servicios/ventas.png') }}"/>
                             <h3>amigables</h3>
                         </li>
                         <li>
-                            <img width="300" height="300" src="{{ asset('imagenes/servicios/credit card.png') }}" />
+                            <img width="400" height="400" src="{{ asset('imagenes/servicios/credit card.png') }}" />
                             <h3>Versatiles</h3>
                         </li>
                         <li>
-                            <img width="300" height="300" src="{{ asset('imagenes/servicios/configuracion.png') }}" />
+                            <img width="400" height="400" src="{{ asset('imagenes/servicios/configuracion.png') }}" />
                             <h3>Configurable</h3>
                         </li>
                     </ul>
@@ -100,7 +108,11 @@
         </div>
         {{-- /e-commerce --}}
 
-        <div class="col-sm-12 col-md-12 divisor"></div>
+        <div class="col-sm-12 col-md-12 divisor">
+            <a href="#serv-4-prin" class="divisor-hijo koderScroll">
+                <i class="material-icons large blue-text">keyboard_arrow_down</i>
+            </a>
+        </div>
 
         {{-- servicio de desarrollo movil --}}
         <div class="col-sm-12 col-md-12 serv-pg-prin" id="serv-4-prin">
@@ -117,15 +129,15 @@
                 <div id="fc-slideshow4" class="fc-slideshow">
                     <ul class="fc-slides">
                         <li>
-                            <img width="300" height="300" src="{{ asset('imagenes/servicios/personales.png') }}"/>
+                            <img width="400" height="400" src="{{ asset('imagenes/servicios/personales.png') }}"/>
                             <h3>personales</h3>
                         </li>
                         <li>
-                            <img width="300" height="300" src="{{ asset('imagenes/servicios/modernas.png') }}" />
+                            <img width="400" height="400" src="{{ asset('imagenes/servicios/modernas.png') }}" />
                             <h3>modernas</h3>
                         </li>
                         <li>
-                            <img width="300" height="300" src="{{ asset('imagenes/servicios/escalable.png') }}" />
+                            <img width="400" height="400" src="{{ asset('imagenes/servicios/escalable.png') }}" />
                             <h3>escalables</h3>
                         </li>
                     </ul>

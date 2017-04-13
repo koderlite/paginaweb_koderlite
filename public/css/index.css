@@ -282,7 +282,35 @@ body{
     width: 100%;
     height: 1px;
     background: #ccc;
+    position: relative;
+    text-align: center;
 }
+
+    .divisor-hijo{
+        position: absolute;
+        margin: auto 0;
+        z-index: 1000;
+        top: -30px;
+        cursor: pointer;
+        background-color: white;
+        padding: 15px 15px;
+        text-align: center;
+        font-size: 2em;
+        font-weight: bold;
+        border-radius: 50px;
+        border: 1px solid #888;
+        color: #888;
+
+        -webkit-transition:background .4s ease-in;
+        -moz-transition:   background .4s ease-in;
+        -o-transition:     background .4s ease-in;
+        -ms-transition:    background .4s ease-in;
+        transition:        background .4s ease-in;
+    }
+
+        .divisor-hijo:hover{
+            background-color: #888;
+        }
 
 /* SERVICIOS clave => serv*/
 
@@ -345,7 +373,7 @@ body{
 /*fin fuentes*/
 
 #serv-pnl-prin{
-    height: 85vh;
+    height: 60vh;
     background-color: #35363A;
     padding: 30px 0;
 }
@@ -371,39 +399,39 @@ body{
 
 /*metodos para los servicios especificos*/
 #fc-slideshow{
-    width: 300px !important;
-    height: 300px !important;
+    width: 400px !important;
+    height: 400px !important;
 }
 
     #fc-slideshow ul li img{
-        width: 300px !important;
+        width: 400px !important;
     }
 
 #fc-slideshow2{
-    width: 300px !important;
-    height: 300px !important;
+    width: 400px !important;
+    height: 400px !important;
 }
 
     #fc-slideshow2 ul li img{
-        width: 300px !important;
+        width: 400px !important;
     }
 
 #fc-slideshow3{
-    width: 300px !important;
-    height: 300px !important;
+    width: 400px !important;
+    height: 400px !important;
 }
 
     #fc-slideshow3 ul li img{
-        width: 300px !important;
+        width: 400px !important;
     }
 
 #fc-slideshow4{
-    width: 300px !important;
-    height: 300px !important;
+    width: 400px !important;
+    height: 400px !important;
 }
 
     #fc-slideshow4 ul li img{
-        width: 300px !important;
+        width: 400px !important;
     }
 
 .serv-cotainer-prin{
@@ -412,8 +440,9 @@ body{
 }
 
 .serv-pg-prin{
-    padding: 65px 5px 50px 5px;
+    padding: 100px 5px 50px 5px;
     background: #ffffff;
+    height: 85vh !important;
 }
 
 .serv-pag-derecha{
@@ -448,9 +477,9 @@ body{
     }
 
     .serv-pag-derecha p{
-        font-size: 1.5em;
+        font-size: 2em;
         /*font-family: 'Raleway', sans-serif !important;*/
-        line-height: 1.1;
+        line-height: 1.2;
         text-align: justify;
         color: #888;
         font-weight: 300;
@@ -473,11 +502,11 @@ body{
     font-weight: bold;
 
     /*animacion*/
-    -webkit-transition:background 1s ease-in, color 1s ease-in;
-    -moz-transition:   background 1s ease-in, color 1s ease-in;
-    -o-transition:     background 1s ease-in, color 1s ease-in;
-    -ms-transition:    background 1s ease-in, color 1s ease-in;
-    transition:        background 1s ease-in, color 1s ease-in;
+    -webkit-transition:background .4s ease-in, color 1s ease-in;
+    -moz-transition:   background .4s ease-in, color 1s ease-in;
+    -o-transition:     background .4s ease-in, color 1s ease-in;
+    -ms-transition:    background .4s ease-in, color 1s ease-in;
+    transition:        background .4s ease-in, color 1s ease-in;
 }
 
 .btn-propio1:hover{
@@ -492,11 +521,11 @@ body{
     font-weight: bold;
 
     /*animacion*/
-    -webkit-transition:background 1s ease-in, color 1s ease-in;
-    -moz-transition:   background 1s ease-in, color 1s ease-in;
-    -o-transition:     background 1s ease-in, color 1s ease-in;
-    -ms-transition:    background 1s ease-in, color 1s ease-in;
-    transition:        background 1s ease-in, color 1s ease-in;
+    -webkit-transition:background .4s ease-in, color 1s ease-in;
+    -moz-transition:   background .4s ease-in, color 1s ease-in;
+    -o-transition:     background .4s ease-in, color 1s ease-in;
+    -ms-transition:    background .4s ease-in, color 1s ease-in;
+    transition:        background .4s ease-in, color 1s ease-in;
 }
 
 .btn-propio2:hover{
@@ -511,11 +540,11 @@ body{
     font-weight: bold;
 
     /*animacion*/
-    -webkit-transition:background 1s ease-in, color 1s ease-in;
-    -moz-transition:   background 1s ease-in, color 1s ease-in;
-    -o-transition:     background 1s ease-in, color 1s ease-in;
-    -ms-transition:    background 1s ease-in, color 1s ease-in;
-    transition:        background 1s ease-in, color 1s ease-in;
+    -webkit-transition:background .4s ease-in, color 1s ease-in;
+    -moz-transition:   background .4s ease-in, color 1s ease-in;
+    -o-transition:     background .4s ease-in, color 1s ease-in;
+    -ms-transition:    background .4s ease-in, color 1s ease-in;
+    transition:        background .4s ease-in, color 1s ease-in;
 }
 
 .btn-propio3:hover{
@@ -530,11 +559,11 @@ body{
     font-weight: bold;
 
     /*animacion*/
-    -webkit-transition:background 1s ease-in, color 1s ease-in;
-    -moz-transition:   background 1s ease-in, color 1s ease-in;
-    -o-transition:     background 1s ease-in, color 1s ease-in;
-    -ms-transition:    background 1s ease-in, color 1s ease-in;
-    transition:        background 1s ease-in, color 1s ease-in;
+    -webkit-transition:background .4s ease-in, color 1s ease-in;
+    -moz-transition:   background .4s ease-in, color 1s ease-in;
+    -o-transition:     background .4s ease-in, color 1s ease-in;
+    -ms-transition:    background .4s ease-in, color 1s ease-in;
+    transition:        background .4s ease-in, color 1s ease-in;
 }
 
 .btn-propio4:hover{
