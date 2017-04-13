@@ -5,6 +5,7 @@
 /*quitando el scroll horizontal*/
 body{
   overflow-x: hidden;
+  background: white;
 }
 
 /*==========================CONTENT INICIO=======================   CLAVE=> 'init'*/
@@ -277,7 +278,11 @@ body{
 
 /*    ------------------TERMINA =OBTENER SERVICIO=---------------------    */
 
-
+.divisor{
+    width: 100%;
+    height: 1px;
+    background: #ccc;
+}
 
 /* SERVICIOS clave => serv*/
 
@@ -401,6 +406,11 @@ body{
         width: 300px !important;
     }
 
+.serv-cotainer-prin{
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
 .serv-pg-prin{
     padding: 65px 5px 50px 5px;
     background: #ffffff;
@@ -414,6 +424,7 @@ body{
         font-size: 2.5em;
         margin-bottom: 25px;
         padding-left: 15px;
+        color: #22313F;
     }
 
     #serv-1 h3{
@@ -437,10 +448,12 @@ body{
     }
 
     .serv-pag-derecha p{
-        font-size: 2em;
-        font-family: 'Raleway', sans-serif !important;
-        line-height: 1;
+        font-size: 1.5em;
+        /*font-family: 'Raleway', sans-serif !important;*/
+        line-height: 1.1;
         text-align: justify;
+        color: #888;
+        font-weight: 300;
     }
 
 .serv-pw-btn{
@@ -451,4 +464,80 @@ body{
   font-size: 1.2em;
   font-family: 'Raleway', sans-serif;
   background-color: #2196f3;
+}
+
+.btn-propio1{
+    border: 2px solid #2196f3;
+    background-color: white !important;
+    padding: 8px 30px;
+    font-weight: bold;
+
+    /*animacion*/
+    -webkit-transition:background 1s ease-in, color 1s ease-in;
+    -moz-transition:   background 1s ease-in, color 1s ease-in;
+    -o-transition:     background 1s ease-in, color 1s ease-in;
+    -ms-transition:    background 1s ease-in, color 1s ease-in;
+    transition:        background 1s ease-in, color 1s ease-in;
+}
+
+.btn-propio1:hover{
+    background-color: #2196f3 !important;
+    color: white !important;
+}
+
+.btn-propio2{
+    border: 2px solid #673ab7;
+    background-color: white !important;
+    padding: 8px 30px;
+    font-weight: bold;
+
+    /*animacion*/
+    -webkit-transition:background 1s ease-in, color 1s ease-in;
+    -moz-transition:   background 1s ease-in, color 1s ease-in;
+    -o-transition:     background 1s ease-in, color 1s ease-in;
+    -ms-transition:    background 1s ease-in, color 1s ease-in;
+    transition:        background 1s ease-in, color 1s ease-in;
+}
+
+.btn-propio2:hover{
+    background-color: #673ab7 !important;
+    color: white !important;
+}
+
+.btn-propio3{
+    border: 2px solid #e91e63;
+    background-color: white !important;
+    padding: 8px 30px;
+    font-weight: bold;
+
+    /*animacion*/
+    -webkit-transition:background 1s ease-in, color 1s ease-in;
+    -moz-transition:   background 1s ease-in, color 1s ease-in;
+    -o-transition:     background 1s ease-in, color 1s ease-in;
+    -ms-transition:    background 1s ease-in, color 1s ease-in;
+    transition:        background 1s ease-in, color 1s ease-in;
+}
+
+.btn-propio3:hover{
+    background-color: #e91e63 !important;
+    color: white !important;
+}
+
+.btn-propio4{
+    border: 2px solid #ffc107;
+    background-color: white !important;
+    padding: 8px 30px;
+    font-weight: bold;
+
+    /*animacion*/
+    -webkit-transition:background 1s ease-in, color 1s ease-in;
+    -moz-transition:   background 1s ease-in, color 1s ease-in;
+    -o-transition:     background 1s ease-in, color 1s ease-in;
+    -ms-transition:    background 1s ease-in, color 1s ease-in;
+    transition:        background 1s ease-in, color 1s ease-in;
+}
+
+.btn-propio4:hover{
+    background-color: #ffc107 !important;
+    color: white !important;
 }
